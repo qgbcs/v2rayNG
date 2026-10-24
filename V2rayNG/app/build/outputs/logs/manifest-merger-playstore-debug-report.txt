@@ -1,0 +1,1240 @@
+-- Merging decision tree log ---
+action#com.v2ray.ang.action.widget.click
+INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:288:17-79
+	android:name
+		INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:288:25-76
+action#com.v2ray.ang.action.activity
+INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:289:17-75
+	android:name
+		INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:289:25-72
+provider#androidx.startup.InitializationProvider
+INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:338:9-349:20
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:24:9-32:20
+MERGED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:11:9-19:20
+MERGED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:11:9-19:20
+MERGED from [androidx.startup:startup-runtime:1.2.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/de2400e0348dc78998b12d297090f63e/transformed/startup-runtime-1.2.0/AndroidManifest.xml:24:9-28:34
+MERGED from [androidx.startup:startup-runtime:1.2.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/de2400e0348dc78998b12d297090f63e/transformed/startup-runtime-1.2.0/AndroidManifest.xml:24:9-28:34
+	tools:node
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:342:13-31
+	android:authorities
+		INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:340:13-68
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:341:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:339:13-67
+provider#androidx.core.content.FileProvider
+INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:356:9-364:20
+	android:grantUriPermissions
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:360:13-47
+	android:authorities
+		INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:358:13-57
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:359:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:357:13-62
+manifest
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:2:1-368:12
+INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:2:1-368:12
+INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:2:1-368:12
+INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:2:1-368:12
+MERGED from [libv2ray.aar] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b1ba01ec92ac97443c45d8226ee94471/transformed/libv2ray/AndroidManifest.xml:1:1-2:50
+MERGED from [io.coil-kt.coil3:coil-compose-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/bb29b6211d1dddbdf7c06c095a23ea7a/transformed/coil-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0ddb5e713171be3b1f7b44805240c963/transformed/coil/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/29b2c0e6a2becf64d7d8eedd0d1abbbc/transformed/coil-compose-core/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-core-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/5eae2e883dc8dd27d7d3504ed2f9d89a/transformed/coil-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.8.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f92ea9c2d42f73d5270f000bd4702af3/transformed/appcompat-resources-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.8.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/4c52839ecc0a724dec2aca782b2aa2ac/transformed/appcompat-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.5.4] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/cef64a6b9de92d46919d6d1899409aab/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-camera2-pipe:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6d8e7c9e666bb97b0e23ca6aee32df46/transformed/camera-camera2-pipe-1.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e9ceef52c391e678047da317a5d7eee8/transformed/camera-lifecycle-1.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7e83be39d471481be1eb97f1bbc65aed/transformed/camera-core-1.6.2/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-compose:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/95a3a2dda92b0109ca729d1a5e439de1/transformed/camera-compose-1.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/046c779bf6d1a0d83cd798d615083c74/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7df1aa0cac255d2bfcb6a1e38f01942c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera.viewfinder:viewfinder-compose:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/28b95925bab7d8cbd35ee3b2f94fadad/transformed/viewfinder-compose-1.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera.viewfinder:viewfinder-core:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0c2f01ae73d339b94fcc27eb3681959c/transformed/viewfinder-core-1.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.work:work-multiprocess:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7119d66aa85f75fe68c12ac9edbafa12/transformed/work-multiprocess-2.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.work:work-runtime-ktx:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/72a5b9dc3b892692817ac11ad40e5a64/transformed/work-runtime-ktx-2.12.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:17:1-83:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ac201b3de7ba2d5962da3e5805180fb6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/64b98afbbd0ff01493c2f31dc2353909/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c07dbec47fec247c06068a4933e2690e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/5343afaaf2e0777714c6c0e8711abcc9/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [sh.calvin.reorderable:reorderable-android-debug:3.1.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e912305b5129f3b0c628b88e9ca9deb9/transformed/reorderable-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.foundation:foundation-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a0b9e191b134d0c1dead2d6fd5427c1b/transformed/foundation/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.animation:animation-core-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ebb267708083a22f6a400d96ef37da74/transformed/animation-core/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.animation:animation-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/813132087aa3f940a800bd70d6db3656/transformed/animation/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.foundation:foundation-layout-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/058eb7d285a890b66fd1d7ba76d34bdc/transformed/foundation-layout/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a6bdff6ff8952a10aa0c67881cec324f/transformed/animation-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/351fe27b2adf7e14378f910c1934ba98/transformed/material-ripple/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/161ac6a87ea5c3e6ad6357a3c97048fe/transformed/animation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e5434781105bdd54ec6af62cfa99a140/transformed/foundation-layout/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/9f3f55bc34246e0d48281dfc93131d70/transformed/ui-tooling-data/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.ui:ui-unit-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f8eb589ede03e82bb85079f1666f0719/transformed/ui-unit/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.ui:ui-graphics-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/056082898725d920c14c986b335141f6/transformed/ui-graphics/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.ui:ui-geometry-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/5c2218ce8d5d66285b89e1fb56d63934/transformed/ui-geometry/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.ui:ui-util-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/69f68eaf576dae52471183b37d10b6de/transformed/ui-util/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.ui:ui-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ae3b54c39c55fec5a7e8c85bf6a128d0/transformed/ui/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.ui:ui-text-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d56d00ff1db76b607d599e18b9f549ec/transformed/ui-text/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f52321a8bc6222bd4f7d27cd02292ab0/transformed/ui-text/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8941b132ed4b11a93f3d33e499aee5ca/transformed/ui-util/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1be5b7847328ffdeee2b3e48362ea9f0/transformed/ui-unit/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/91eba64de310b472556c2c7970df03b7/transformed/ui-graphics/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8a485ce14fb7d8499464207c7e4272ee/transformed/ui-geometry/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/35e0d639dd60f783f9b9b17fdc62104b/transformed/ui-tooling-preview/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d4c14d7bbc1985e75e94b5d5d8f48726/transformed/ui-tooling/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1c333341cf4c832d7c869536d4cfd2b0/transformed/material3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/31dd73a104c9173f21525a3cb385606d/transformed/foundation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1ca59cb029a390a594ccdbe4ca866f9b/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window-core-android:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c6267a315af127d8bb64f13512aca45e/transformed/window-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7a6b6e3ea52172bee1cfbcdee5272092/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0b210d333e13664a851bfad1c66b83f2/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/605ec54255e1c7b050c7cb0355ca6e18/transformed/lifecycle-viewmodel-savedstate/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/9d80c849bcd80493c49c2d0ea2759f06/transformed/lifecycle-service-2.11.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d69549618fd1dfc3cdea9ee1c693d20b/transformed/navigationevent/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f7a4c521c52fb34a66e2d2dd1ca1add5/transformed/navigationevent-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b30cc75a3f54fd40e75185b370da8c6d/transformed/runtime-annotation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e565271fa1323db13b93467807ac0275/transformed/runtime-retain/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0ccd6d2ab8cb47fc6446f8dc73a82d83/transformed/runtime-saveable/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/efd4877b02de72ba4748cbddaa6f13fd/transformed/savedstate-ktx-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/275562bec04336cd0c41b0dd8a7d9629/transformed/savedstate/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a53672db73b559531f6a754309114449/transformed/savedstate-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0a91298151f47403848340d5322c22f9/transformed/runtime/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.runtime:runtime-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f0ac2445fef4bc72c76728a9e636c83c/transformed/runtime/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.runtime:runtime-saveable-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/aed13c7984288d88048e5c692e2ec16d/transformed/runtime-saveable/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b0ad675b9df5c6581b066341a982afb8/transformed/lifecycle-runtime/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b6c1db84673f7b19053e463b0dbec6b1/transformed/lifecycle-livedata-core-ktx-2.11.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/803a7078b7f79cb7fcb66b4f738687b5/transformed/lifecycle-viewmodel-2.11.0/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0e695aa8a3253a7d2fd63d53f6082002/transformed/lifecycle-viewmodel/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6384c99832e2ec0c2bda58307703941d/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/04e63bdc41f34ad9190ca80f4f953385/transformed/lifecycle-livedata-core-2.11.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f639a53a3bac56ed623cdc58d7bf75f4/transformed/lifecycle-livedata-2.11.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/9f22c51cda8f124009f7c35d7f4c9c68/transformed/lifecycle-viewmodel-ktx-2.11.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/87227dc6df4e4ff3d153166dfdec2a61/transformed/lifecycle-runtime-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.37.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/84373697e2de55ab74ea8352cf884ce3/transformed/accompanist-drawablepainter-0.37.3/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.ui:ui-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/3b8cfc157faccab77647edcb12a86b7c/transformed/ui/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.13.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/088a09ed94d2f1c09eef6a42194554d4/transformed/activity-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.13.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1e9e40e3294fd50a5ff23614ef76e534/transformed/activity-1.13.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.13.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1f9516a2e49d68573c79543e7d920a80/transformed/activity-compose-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/592669994b271bd1eadc0d5b49ad83d2/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/007e7fc2b2c60729f68e152fe1e4f7a3/transformed/core-ktx-1.19.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:17:1-31:12
+MERGED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/65f1ce46978f2d9b73136bc510500f31/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-backported-fixes:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c10f3131db32b009f4e442a3ad47dd2b/transformed/core-backported-fixes-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6beb2456a907c0e40457aeb8a585caa6/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.startup:startup-runtime:1.2.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/de2400e0348dc78998b12d297090f63e/transformed/startup-runtime-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.tracing:tracing-ktx:1.3.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d640ff74accce197fa9e58304596a07c/transformed/tracing-ktx-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-android:1.3.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a6d190ae3aa37934a99b4c42bfb3c89a/transformed/tracing/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera.featurecombinationquery:featurecombinationquery:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c69159c0fcca488123967d13b0163cb3/transformed/featurecombinationquery-1.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.tencent:mmkv-static:1.3.17] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/59c4ffd0da1674e9c21110af4a6b5ec8/transformed/mmkv-static-1.3.17/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/94baedc1263f80f152dafb626d3c7744/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.4.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/556c732b998a04137919a2bc478f542d/transformed/exifinterface-1.4.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/29ce40ba721cf21a74369f67d184ef1a/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/52950b0269f37cbef42ee001a335ec03/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/73f98ef7f03c6fe4ccaf7831e5bbf531/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8e1d693d5b1fbe8d9716b502220a1769/transformed/sqlite-framework-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-android:2.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c6657935717616d8bffa301d515b91c2/transformed/sqlite-release/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:2:11-69
+	tools:ignore
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:4:5-43
+supports-screens
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:6:5-11:40
+	android:largeScreens
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:8:9-36
+	android:smallScreens
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:10:9-36
+	android:normalScreens
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:9:9-37
+	android:xlargeScreens
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:11:9-37
+	android:anyDensity
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:7:9-34
+uses-feature#android.hardware.camera
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:14:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:17:9-57
+uses-feature#android.software.leanback
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:20:9-49
+uses-feature#android.hardware.touchscreen
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:23:9-52
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:27:5-29:77
+	tools:ignore
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:29:9-74
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:28:9-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:30:5-79
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:30:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:31:5-79
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:31:22-76
+uses-permission#android.permission.ACCESS_LOCAL_NETWORK
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:32:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:33:5-67
+MERGED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:8:5-67
+MERGED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:33:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:34:5-65
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:34:22-62
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:35:5-36:51
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:26:5-77
+	tools:ignore
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:36:9-48
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:35:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:37:5-39:38
+	android:minSdkVersion
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:39:9-35
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:38:9-73
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:41:5-77
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:41:22-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:42:5-81
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:42:22-78
+application
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:44:5-366:19
+INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:44:5-366:19
+MERGED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7e83be39d471481be1eb97f1bbc65aed/transformed/camera-core-1.6.2/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7e83be39d471481be1eb97f1bbc65aed/transformed/camera-core-1.6.2/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.work:work-multiprocess:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7119d66aa85f75fe68c12ac9edbafa12/transformed/work-multiprocess-2.12.0/AndroidManifest.xml:23:5-28:19
+MERGED from [androidx.work:work-multiprocess:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7119d66aa85f75fe68c12ac9edbafa12/transformed/work-multiprocess-2.12.0/AndroidManifest.xml:23:5-28:19
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:28:5-81:19
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:28:5-81:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d4c14d7bbc1985e75e94b5d5d8f48726/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d4c14d7bbc1985e75e94b5d5d8f48726/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:23:5-29:19
+MERGED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:10:5-20:19
+MERGED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:10:5-20:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/de2400e0348dc78998b12d297090f63e/transformed/startup-runtime-1.2.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/de2400e0348dc78998b12d297090f63e/transformed/startup-runtime-1.2.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/73f98ef7f03c6fe4ccaf7831e5bbf531/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/73f98ef7f03c6fe4ccaf7831e5bbf531/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:51:9-35
+	android:label
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:49:9-41
+	android:icon
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:48:9-43
+	android:allowBackup
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:46:9-35
+	android:banner
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:47:9-43
+	android:theme
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:52:9-60
+	android:networkSecurityConfig
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:50:9-69
+	android:usesCleartextTraffic
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:53:9-44
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:45:9-39
+service#androidx.appcompat.app.AppLocalesMetadataHolderService
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:55:9-62:19
+	android:enabled
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:57:13-36
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:56:13-82
+meta-data#autoStoreLocales
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:59:13-61:40
+	android:value
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:61:17-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:60:17-48
+activity#com.v2ray.ang.ui.main.MainActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:64:9-81:20
+	android:launchMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:67:13-44
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:65:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:68:13-73:29
+action#android.intent.action.MAIN
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:69:17-69
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:69:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:71:17-77
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:71:27-74
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:72:17-86
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:72:27-83
+intent-filter#action:name:android.service.quicksettings.action.QS_TILE_PREFERENCES
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:74:13-76:29
+action#android.service.quicksettings.action.QS_TILE_PREFERENCES
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:75:17-99
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:75:25-96
+meta-data#android.app.shortcuts
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:78:13-80:53
+	android:resource
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:80:17-50
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:79:17-53
+activity#com.v2ray.ang.ui.server.ServerVmessActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:82:9-85:73
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:85:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:84:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:83:13-58
+activity#com.v2ray.ang.ui.server.ServerVlessActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:86:9-89:73
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:89:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:88:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:87:13-58
+activity#com.v2ray.ang.ui.server.ServerShadowsocksActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:90:9-93:73
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:93:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:92:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:91:13-64
+activity#com.v2ray.ang.ui.server.ServerSocksActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:94:9-97:73
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:97:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:96:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:95:13-58
+activity#com.v2ray.ang.ui.server.ServerHttpActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:98:9-101:73
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:101:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:100:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:99:13-57
+activity#com.v2ray.ang.ui.server.ServerTrojanActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:102:9-105:73
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:105:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:104:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:103:13-59
+activity#com.v2ray.ang.ui.server.ServerWireguardActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:106:9-109:73
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:109:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:108:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:107:13-62
+activity#com.v2ray.ang.ui.server.ServerHysteria2Activity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:110:9-113:73
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:113:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:112:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:111:13-62
+activity#com.v2ray.ang.ui.server.ServerCustomConfigActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:114:9-117:73
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:117:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:116:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:115:13-65
+activity#com.v2ray.ang.ui.server.ServerGroupActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:118:9-121:73
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:121:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:120:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:119:13-58
+activity#com.v2ray.ang.ui.server.ServerProxyChainActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:122:9-125:73
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:125:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:124:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:123:13-63
+activity#com.v2ray.ang.ui.settings.SettingsActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:126:9-128:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:128:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:127:13-57
+activity#com.v2ray.ang.ui.perappproxy.PerAppProxyActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:129:9-131:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:131:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:130:13-63
+activity#com.v2ray.ang.ui.apppicker.AppPickerActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:132:9-134:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:134:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:133:13-59
+activity#com.v2ray.ang.ui.ScannerActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:135:9-137:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:137:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:136:13-47
+activity#com.v2ray.ang.ui.logcat.LogcatActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:138:9-140:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:140:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:139:13-53
+activity#com.v2ray.ang.ui.routing.RoutingSettingActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:141:9-143:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:143:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:142:13-62
+activity#com.v2ray.ang.ui.routing.RoutingEditActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:144:9-147:40
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:146:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:147:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:145:13-59
+activity#com.v2ray.ang.ui.subscription.SubSettingActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:148:9-150:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:150:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:149:13-63
+activity#com.v2ray.ang.ui.userasset.UserAssetActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:151:9-153:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:153:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:152:13-59
+activity#com.v2ray.ang.ui.userasset.UserAssetUrlActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:154:9-157:40
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:156:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:155:13-62
+activity#com.v2ray.ang.ui.subscription.SubEditActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:159:9-162:40
+	android:windowSoftInputMode
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:161:13-70
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:162:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:160:13-60
+activity#com.v2ray.ang.ui.shortcut.ScScannerActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:163:9-165:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:165:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:164:13-58
+activity#com.v2ray.ang.ui.shortcut.ScSwitchActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:166:9-171:79
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:170:13-38
+	android:excludeFromRecents
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:168:13-46
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:169:13-37
+	android:theme
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:171:13-76
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:167:13-57
+activity#com.v2ray.ang.ui.shortcut.ScStartActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:172:9-177:79
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:176:13-38
+	android:excludeFromRecents
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:174:13-46
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:175:13-37
+	android:theme
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:177:13-76
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:173:13-56
+activity#com.v2ray.ang.ui.shortcut.ScStopActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:178:9-183:79
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:182:13-38
+	android:excludeFromRecents
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:180:13-46
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:181:13-37
+	android:theme
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:183:13-76
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:179:13-55
+activity#com.v2ray.ang.ui.UrlSchemeActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:185:9-203:20
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:187:13-36
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:186:13-49
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:188:13-192:29
+action#android.intent.action.SEND
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:189:17-69
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:189:25-66
+category#android.intent.category.DEFAULT
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:190:17-76
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:190:27-73
+data
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:191:17-55
+	android:host
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:200:23-52
+	android:scheme
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:199:23-47
+	android:mimeType
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:191:23-52
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:install-config+data:host:install-sub+data:scheme:v2rayng
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:193:13-202:29
+action#android.intent.action.VIEW
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:194:17-69
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:194:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:196:17-78
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:196:27-75
+activity#com.v2ray.ang.ui.checkupdate.CheckUpdateActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:204:9-206:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:206:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:205:13-63
+activity#com.v2ray.ang.ui.backup.BackupActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:207:9-209:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:209:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:208:13-53
+activity#com.v2ray.ang.ui.AboutActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:210:9-212:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:212:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:211:13-45
+activity#com.v2ray.ang.ui.TranslatorsActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:213:9-215:40
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:215:13-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:214:13-51
+service#com.v2ray.ang.service.CoreVpnService
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:217:9-235:19
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:224:13-38
+	android:enabled
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:219:13-35
+	android:label
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:222:13-45
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:220:13-37
+	tools:ignore
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:225:13-44
+	android:permission
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:223:13-69
+	android:foregroundServiceType
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:221:13-55
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:218:13-51
+intent-filter#action:name:android.net.VpnService
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:226:13-228:29
+action#android.net.VpnService
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:227:17-65
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:227:25-62
+meta-data#android.net.VpnService.SUPPORTS_ALWAYS_ON
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:229:13-231:40
+	android:value
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:231:17-37
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:230:17-73
+property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:232:13-234:39
+	android:value
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:234:17-36
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:233:17-76
+service#com.v2ray.ang.service.CoreProxyOnlyService
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:237:9-246:19
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:242:13-38
+	android:label
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:241:13-45
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:239:13-37
+	android:foregroundServiceType
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:240:13-55
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:238:13-57
+service#com.v2ray.ang.service.CoreRootService
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:248:9-257:19
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:253:13-38
+	android:label
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:252:13-45
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:250:13-37
+	android:foregroundServiceType
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:251:13-55
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:249:13-52
+service#com.v2ray.ang.service.CoreTestService
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:259:9-267:19
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:263:13-37
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:261:13-37
+	android:foregroundServiceType
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:262:13-55
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:260:13-52
+service#com.v2ray.ang.service.SubscriptionUpdateService
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:269:9-277:19
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:273:13-37
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:271:13-37
+	android:foregroundServiceType
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:272:13-55
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:270:13-62
+receiver#com.v2ray.ang.receiver.WidgetProvider
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:279:9-291:20
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:282:13-38
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:281:13-36
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:280:13-52
+meta-data#android.appwidget.provider
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:283:13-285:63
+	android:resource
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:285:17-60
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:284:17-58
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:com.v2ray.ang.action.activity+action:name:com.v2ray.ang.action.widget.click
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:286:13-290:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:287:17-84
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:287:25-81
+receiver#com.v2ray.ang.receiver.BootReceiver
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:292:9-301:20
+	android:label
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:295:13-41
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:294:13-36
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:293:13-50
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:296:13-300:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:297:17-79
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:297:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:298:17-86
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:298:25-83
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:299:17-84
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:299:25-81
+service#com.v2ray.ang.service.QSTileService
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:303:9-317:19
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:310:13-38
+	android:label
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:308:13-50
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:305:13-36
+	android:permission
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:309:13-77
+	android:icon
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:307:13-50
+	android:foregroundServiceType
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:306:13-55
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:304:13-50
+intent-filter#action:name:android.service.quicksettings.action.QS_TILE
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:311:13-313:29
+action#android.service.quicksettings.action.QS_TILE
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:312:17-87
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:312:25-84
+activity#com.v2ray.ang.ui.shortcut.TaskerActivity
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:319:9-326:20
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:321:13-36
+	android:icon
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:322:13-47
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:320:13-55
+intent-filter#action:name:com.twofortyfouram.locale.intent.action.EDIT_SETTING
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:323:13-325:29
+action#com.twofortyfouram.locale.intent.action.EDIT_SETTING
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:324:17-95
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:324:25-92
+receiver#com.v2ray.ang.receiver.TaskerReceiver
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:328:9-336:20
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:331:13-38
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:330:13-36
+	tools:ignore
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:332:13-44
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:329:13-52
+intent-filter#action:name:com.twofortyfouram.locale.intent.action.FIRE_SETTING
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:333:13-335:29
+action#com.twofortyfouram.locale.intent.action.FIRE_SETTING
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:334:17-95
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:334:25-92
+service#androidx.work.multiprocess.RemoteWorkManagerService
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:351:9-354:37
+MERGED from [androidx.work:work-multiprocess:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7119d66aa85f75fe68c12ac9edbafa12/transformed/work-multiprocess-2.12.0/AndroidManifest.xml:24:9-27:63
+MERGED from [androidx.work:work-multiprocess:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7119d66aa85f75fe68c12ac9edbafa12/transformed/work-multiprocess-2.12.0/AndroidManifest.xml:24:9-27:63
+	android:process
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:354:13-34
+	android:exported
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:353:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-multiprocess:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7119d66aa85f75fe68c12ac9edbafa12/transformed/work-multiprocess-2.12.0/AndroidManifest.xml:27:13-60
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:352:13-79
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:344:13-347:39
+REJECTED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:34:13-36:52
+	tools:node
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:347:17-36
+	android:value
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:346:17-49
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:345:17-68
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:361:13-363:55
+	android:resource
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:363:17-52
+	android:name
+		ADDED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:362:17-67
+uses-sdk
+INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+MERGED from [libv2ray.aar] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b1ba01ec92ac97443c45d8226ee94471/transformed/libv2ray/AndroidManifest.xml:2:1-39
+MERGED from [libv2ray.aar] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b1ba01ec92ac97443c45d8226ee94471/transformed/libv2ray/AndroidManifest.xml:2:1-39
+MERGED from [io.coil-kt.coil3:coil-compose-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/bb29b6211d1dddbdf7c06c095a23ea7a/transformed/coil-compose/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-compose-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/bb29b6211d1dddbdf7c06c095a23ea7a/transformed/coil-compose/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0ddb5e713171be3b1f7b44805240c963/transformed/coil/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0ddb5e713171be3b1f7b44805240c963/transformed/coil/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/29b2c0e6a2becf64d7d8eedd0d1abbbc/transformed/coil-compose-core/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/29b2c0e6a2becf64d7d8eedd0d1abbbc/transformed/coil-compose-core/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-core-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/5eae2e883dc8dd27d7d3504ed2f9d89a/transformed/coil-core/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-core-android:3.6.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/5eae2e883dc8dd27d7d3504ed2f9d89a/transformed/coil-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.8.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f92ea9c2d42f73d5270f000bd4702af3/transformed/appcompat-resources-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.8.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f92ea9c2d42f73d5270f000bd4702af3/transformed/appcompat-resources-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.8.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/4c52839ecc0a724dec2aca782b2aa2ac/transformed/appcompat-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.8.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/4c52839ecc0a724dec2aca782b2aa2ac/transformed/appcompat-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/cef64a6b9de92d46919d6d1899409aab/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/cef64a6b9de92d46919d6d1899409aab/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2-pipe:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6d8e7c9e666bb97b0e23ca6aee32df46/transformed/camera-camera2-pipe-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2-pipe:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6d8e7c9e666bb97b0e23ca6aee32df46/transformed/camera-camera2-pipe-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e9ceef52c391e678047da317a5d7eee8/transformed/camera-lifecycle-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e9ceef52c391e678047da317a5d7eee8/transformed/camera-lifecycle-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7e83be39d471481be1eb97f1bbc65aed/transformed/camera-core-1.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7e83be39d471481be1eb97f1bbc65aed/transformed/camera-core-1.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-compose:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/95a3a2dda92b0109ca729d1a5e439de1/transformed/camera-compose-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-compose:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/95a3a2dda92b0109ca729d1a5e439de1/transformed/camera-compose-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/046c779bf6d1a0d83cd798d615083c74/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/046c779bf6d1a0d83cd798d615083c74/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7df1aa0cac255d2bfcb6a1e38f01942c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7df1aa0cac255d2bfcb6a1e38f01942c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera.viewfinder:viewfinder-compose:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/28b95925bab7d8cbd35ee3b2f94fadad/transformed/viewfinder-compose-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera.viewfinder:viewfinder-compose:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/28b95925bab7d8cbd35ee3b2f94fadad/transformed/viewfinder-compose-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera.viewfinder:viewfinder-core:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0c2f01ae73d339b94fcc27eb3681959c/transformed/viewfinder-core-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera.viewfinder:viewfinder-core:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0c2f01ae73d339b94fcc27eb3681959c/transformed/viewfinder-core-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.work:work-multiprocess:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7119d66aa85f75fe68c12ac9edbafa12/transformed/work-multiprocess-2.12.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-multiprocess:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7119d66aa85f75fe68c12ac9edbafa12/transformed/work-multiprocess-2.12.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/72a5b9dc3b892692817ac11ad40e5a64/transformed/work-runtime-ktx-2.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/72a5b9dc3b892692817ac11ad40e5a64/transformed/work-runtime-ktx-2.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ac201b3de7ba2d5962da3e5805180fb6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ac201b3de7ba2d5962da3e5805180fb6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/64b98afbbd0ff01493c2f31dc2353909/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/64b98afbbd0ff01493c2f31dc2353909/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c07dbec47fec247c06068a4933e2690e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c07dbec47fec247c06068a4933e2690e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/5343afaaf2e0777714c6c0e8711abcc9/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/5343afaaf2e0777714c6c0e8711abcc9/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [sh.calvin.reorderable:reorderable-android-debug:3.1.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e912305b5129f3b0c628b88e9ca9deb9/transformed/reorderable-debug/AndroidManifest.xml:5:5-44
+MERGED from [sh.calvin.reorderable:reorderable-android-debug:3.1.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e912305b5129f3b0c628b88e9ca9deb9/transformed/reorderable-debug/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.foundation:foundation-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a0b9e191b134d0c1dead2d6fd5427c1b/transformed/foundation/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.foundation:foundation-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a0b9e191b134d0c1dead2d6fd5427c1b/transformed/foundation/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.animation:animation-core-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ebb267708083a22f6a400d96ef37da74/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.animation:animation-core-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ebb267708083a22f6a400d96ef37da74/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.animation:animation-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/813132087aa3f940a800bd70d6db3656/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.animation:animation-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/813132087aa3f940a800bd70d6db3656/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.foundation:foundation-layout-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/058eb7d285a890b66fd1d7ba76d34bdc/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.foundation:foundation-layout-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/058eb7d285a890b66fd1d7ba76d34bdc/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a6bdff6ff8952a10aa0c67881cec324f/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a6bdff6ff8952a10aa0c67881cec324f/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/351fe27b2adf7e14378f910c1934ba98/transformed/material-ripple/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/351fe27b2adf7e14378f910c1934ba98/transformed/material-ripple/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/161ac6a87ea5c3e6ad6357a3c97048fe/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/161ac6a87ea5c3e6ad6357a3c97048fe/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e5434781105bdd54ec6af62cfa99a140/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e5434781105bdd54ec6af62cfa99a140/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/9f3f55bc34246e0d48281dfc93131d70/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/9f3f55bc34246e0d48281dfc93131d70/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-unit-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f8eb589ede03e82bb85079f1666f0719/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-unit-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f8eb589ede03e82bb85079f1666f0719/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-graphics-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/056082898725d920c14c986b335141f6/transformed/ui-graphics/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-graphics-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/056082898725d920c14c986b335141f6/transformed/ui-graphics/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-geometry-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/5c2218ce8d5d66285b89e1fb56d63934/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-geometry-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/5c2218ce8d5d66285b89e1fb56d63934/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-util-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/69f68eaf576dae52471183b37d10b6de/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-util-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/69f68eaf576dae52471183b37d10b6de/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ae3b54c39c55fec5a7e8c85bf6a128d0/transformed/ui/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ae3b54c39c55fec5a7e8c85bf6a128d0/transformed/ui/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-text-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d56d00ff1db76b607d599e18b9f549ec/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-text-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d56d00ff1db76b607d599e18b9f549ec/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f52321a8bc6222bd4f7d27cd02292ab0/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f52321a8bc6222bd4f7d27cd02292ab0/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8941b132ed4b11a93f3d33e499aee5ca/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8941b132ed4b11a93f3d33e499aee5ca/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1be5b7847328ffdeee2b3e48362ea9f0/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1be5b7847328ffdeee2b3e48362ea9f0/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/91eba64de310b472556c2c7970df03b7/transformed/ui-graphics/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/91eba64de310b472556c2c7970df03b7/transformed/ui-graphics/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8a485ce14fb7d8499464207c7e4272ee/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8a485ce14fb7d8499464207c7e4272ee/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/35e0d639dd60f783f9b9b17fdc62104b/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/35e0d639dd60f783f9b9b17fdc62104b/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d4c14d7bbc1985e75e94b5d5d8f48726/transformed/ui-tooling/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d4c14d7bbc1985e75e94b5d5d8f48726/transformed/ui-tooling/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1c333341cf4c832d7c869536d4cfd2b0/transformed/material3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1c333341cf4c832d7c869536d4cfd2b0/transformed/material3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/31dd73a104c9173f21525a3cb385606d/transformed/foundation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/31dd73a104c9173f21525a3cb385606d/transformed/foundation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1ca59cb029a390a594ccdbe4ca866f9b/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1ca59cb029a390a594ccdbe4ca866f9b/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window-core-android:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c6267a315af127d8bb64f13512aca45e/transformed/window-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-core-android:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c6267a315af127d8bb64f13512aca45e/transformed/window-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7a6b6e3ea52172bee1cfbcdee5272092/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7a6b6e3ea52172bee1cfbcdee5272092/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0b210d333e13664a851bfad1c66b83f2/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0b210d333e13664a851bfad1c66b83f2/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/605ec54255e1c7b050c7cb0355ca6e18/transformed/lifecycle-viewmodel-savedstate/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/605ec54255e1c7b050c7cb0355ca6e18/transformed/lifecycle-viewmodel-savedstate/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/9d80c849bcd80493c49c2d0ea2759f06/transformed/lifecycle-service-2.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/9d80c849bcd80493c49c2d0ea2759f06/transformed/lifecycle-service-2.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d69549618fd1dfc3cdea9ee1c693d20b/transformed/navigationevent/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d69549618fd1dfc3cdea9ee1c693d20b/transformed/navigationevent/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f7a4c521c52fb34a66e2d2dd1ca1add5/transformed/navigationevent-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f7a4c521c52fb34a66e2d2dd1ca1add5/transformed/navigationevent-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b30cc75a3f54fd40e75185b370da8c6d/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b30cc75a3f54fd40e75185b370da8c6d/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e565271fa1323db13b93467807ac0275/transformed/runtime-retain/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e565271fa1323db13b93467807ac0275/transformed/runtime-retain/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0ccd6d2ab8cb47fc6446f8dc73a82d83/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0ccd6d2ab8cb47fc6446f8dc73a82d83/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/efd4877b02de72ba4748cbddaa6f13fd/transformed/savedstate-ktx-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/efd4877b02de72ba4748cbddaa6f13fd/transformed/savedstate-ktx-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/275562bec04336cd0c41b0dd8a7d9629/transformed/savedstate/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/275562bec04336cd0c41b0dd8a7d9629/transformed/savedstate/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a53672db73b559531f6a754309114449/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a53672db73b559531f6a754309114449/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0a91298151f47403848340d5322c22f9/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0a91298151f47403848340d5322c22f9/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.runtime:runtime-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f0ac2445fef4bc72c76728a9e636c83c/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.runtime:runtime-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f0ac2445fef4bc72c76728a9e636c83c/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.runtime:runtime-saveable-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/aed13c7984288d88048e5c692e2ec16d/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.runtime:runtime-saveable-android:1.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/aed13c7984288d88048e5c692e2ec16d/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b0ad675b9df5c6581b066341a982afb8/transformed/lifecycle-runtime/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b0ad675b9df5c6581b066341a982afb8/transformed/lifecycle-runtime/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b6c1db84673f7b19053e463b0dbec6b1/transformed/lifecycle-livedata-core-ktx-2.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b6c1db84673f7b19053e463b0dbec6b1/transformed/lifecycle-livedata-core-ktx-2.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/803a7078b7f79cb7fcb66b4f738687b5/transformed/lifecycle-viewmodel-2.11.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/803a7078b7f79cb7fcb66b4f738687b5/transformed/lifecycle-viewmodel-2.11.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0e695aa8a3253a7d2fd63d53f6082002/transformed/lifecycle-viewmodel/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/0e695aa8a3253a7d2fd63d53f6082002/transformed/lifecycle-viewmodel/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6384c99832e2ec0c2bda58307703941d/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6384c99832e2ec0c2bda58307703941d/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/04e63bdc41f34ad9190ca80f4f953385/transformed/lifecycle-livedata-core-2.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/04e63bdc41f34ad9190ca80f4f953385/transformed/lifecycle-livedata-core-2.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f639a53a3bac56ed623cdc58d7bf75f4/transformed/lifecycle-livedata-2.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f639a53a3bac56ed623cdc58d7bf75f4/transformed/lifecycle-livedata-2.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/9f22c51cda8f124009f7c35d7f4c9c68/transformed/lifecycle-viewmodel-ktx-2.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/9f22c51cda8f124009f7c35d7f4c9c68/transformed/lifecycle-viewmodel-ktx-2.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/87227dc6df4e4ff3d153166dfdec2a61/transformed/lifecycle-runtime-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/87227dc6df4e4ff3d153166dfdec2a61/transformed/lifecycle-runtime-compose/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.37.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/84373697e2de55ab74ea8352cf884ce3/transformed/accompanist-drawablepainter-0.37.3/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.37.3] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/84373697e2de55ab74ea8352cf884ce3/transformed/accompanist-drawablepainter-0.37.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.ui:ui-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/3b8cfc157faccab77647edcb12a86b7c/transformed/ui/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/3b8cfc157faccab77647edcb12a86b7c/transformed/ui/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.13.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/088a09ed94d2f1c09eef6a42194554d4/transformed/activity-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.13.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/088a09ed94d2f1c09eef6a42194554d4/transformed/activity-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.13.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1e9e40e3294fd50a5ff23614ef76e534/transformed/activity-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.13.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1e9e40e3294fd50a5ff23614ef76e534/transformed/activity-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.13.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1f9516a2e49d68573c79543e7d920a80/transformed/activity-compose-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.13.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1f9516a2e49d68573c79543e7d920a80/transformed/activity-compose-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/592669994b271bd1eadc0d5b49ad83d2/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/592669994b271bd1eadc0d5b49ad83d2/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/007e7fc2b2c60729f68e152fe1e4f7a3/transformed/core-ktx-1.19.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/007e7fc2b2c60729f68e152fe1e4f7a3/transformed/core-ktx-1.19.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:21:5-44
+MERGED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:6:5-44
+MERGED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:6:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/65f1ce46978f2d9b73136bc510500f31/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/65f1ce46978f2d9b73136bc510500f31/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-backported-fixes:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c10f3131db32b009f4e442a3ad47dd2b/transformed/core-backported-fixes-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-backported-fixes:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c10f3131db32b009f4e442a3ad47dd2b/transformed/core-backported-fixes-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6beb2456a907c0e40457aeb8a585caa6/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6beb2456a907c0e40457aeb8a585caa6/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/de2400e0348dc78998b12d297090f63e/transformed/startup-runtime-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/de2400e0348dc78998b12d297090f63e/transformed/startup-runtime-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.3.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d640ff74accce197fa9e58304596a07c/transformed/tracing-ktx-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.3.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d640ff74accce197fa9e58304596a07c/transformed/tracing-ktx-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-android:1.3.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a6d190ae3aa37934a99b4c42bfb3c89a/transformed/tracing/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-android:1.3.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a6d190ae3aa37934a99b4c42bfb3c89a/transformed/tracing/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera.featurecombinationquery:featurecombinationquery:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c69159c0fcca488123967d13b0163cb3/transformed/featurecombinationquery-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera.featurecombinationquery:featurecombinationquery:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c69159c0fcca488123967d13b0163cb3/transformed/featurecombinationquery-1.6.2/AndroidManifest.xml:5:5-44
+MERGED from [com.tencent:mmkv-static:1.3.17] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/59c4ffd0da1674e9c21110af4a6b5ec8/transformed/mmkv-static-1.3.17/AndroidManifest.xml:5:5-44
+MERGED from [com.tencent:mmkv-static:1.3.17] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/59c4ffd0da1674e9c21110af4a6b5ec8/transformed/mmkv-static-1.3.17/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/94baedc1263f80f152dafb626d3c7744/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/94baedc1263f80f152dafb626d3c7744/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.4.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/556c732b998a04137919a2bc478f542d/transformed/exifinterface-1.4.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.4.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/556c732b998a04137919a2bc478f542d/transformed/exifinterface-1.4.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/29ce40ba721cf21a74369f67d184ef1a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/29ce40ba721cf21a74369f67d184ef1a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/52950b0269f37cbef42ee001a335ec03/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/52950b0269f37cbef42ee001a335ec03/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/73f98ef7f03c6fe4ccaf7831e5bbf531/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/73f98ef7f03c6fe4ccaf7831e5bbf531/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8e1d693d5b1fbe8d9716b502220a1769/transformed/sqlite-framework-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8e1d693d5b1fbe8d9716b502220a1769/transformed/sqlite-framework-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c6657935717616d8bffa301d515b91c2/transformed/sqlite-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c6657935717616d8bffa301d515b91c2/transformed/sqlite-release/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7e83be39d471481be1eb97f1bbc65aed/transformed/camera-core-1.6.2/AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/7e83be39d471481be1eb97f1bbc65aed/transformed/camera-core-1.6.2/AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:31:17-103
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:23:22-65
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:42:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:44:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:40:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:49:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:50:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:51:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:47:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:57:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:55:13-88
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:60:9-69:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:63:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:64:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:65:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:62:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:61:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:66:13-68:29
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:70:9-80:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:73:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:74:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:75:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:76:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:72:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:71:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:77:13-79:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:78:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:78:25-85
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d4c14d7bbc1985e75e94b5d5d8f48726/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d4c14d7bbc1985e75e94b5d5d8f48726/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d4c14d7bbc1985e75e94b5d5d8f48726/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:23:9-81
+permission#com.v2ray.ang.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:26:22-94
+uses-permission#com.v2ray.ang.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:25-92
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:25:13-74
+meta-data#okhttp3.internal.platform.PlatformInitializer
+ADDED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:16:13-18:52
+	android:value
+		ADDED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:18:17-49
+	android:name
+		ADDED from [com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:17:17-77

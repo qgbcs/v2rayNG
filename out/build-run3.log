@@ -1,0 +1,23 @@
+开始 Gradle 构建: assemblePlaystoreDebug（日志: /root/build_xime_home/v2rayNG/V2rayNG/gradle-secexp.log）
+证书 SHA-256: 45dae96c7df223eb1c554dc95d23d40f1e5c5802110e8731a29148d8661da329
+证书 SHA-1:   774fe4151dce8f6a60aadbbc6cfe1a8a2ece6927
+使用 apksigner: /root/build_xime_home/v2rayNG/.android-sdk/build-tools/37.0.0/apksigner
+签名成功: /root/build_xime_home/v2rayNG/V2rayNG/app/build/outputs/apk/playstore/debug/repacked-753-arm64-v8a-signed.apk
+
+=== 已生成 APK ===
+-rw-r--r--. 1 root root 36613768 Oct 25 01:10 /root/build_xime_home/v2rayNG/out/v2rayNG_2.3.13_arm64-v8a.apk
+b31bdbfaace4fea2c4fc181fb32b9eb0790307f5bc37efec1a650ed522983e86  /root/build_xime_home/v2rayNG/out/v2rayNG_2.3.13_arm64-v8a.apk
+
+=== apksigner verify --print-certs ===
+V3.0 Signer: certificate DN: CN=APK_SIGNER, O=SELF, C=CN
+V3.0 Signer: certificate SHA-256 digest: 45dae96c7df223eb1c554dc95d23d40f1e5c5802110e8731a29148d8661da329
+V3.0 Signer: certificate SHA-1 digest: 774fe4151dce8f6a60aadbbc6cfe1a8a2ece6927
+V3.0 Signer: certificate MD5 digest: f49befc123a1c32125e0887c1fa8fe6d
+
+=== aapt badging ===
+package: name='com.v2ray.ang' versionCode='4000753' versionName='2.3.13' platformBuildVersionName='17' platformBuildVersionCode='37' compileSdkVersion='37' compileSdkVersionCodename='17'
+application-label:'v2rayNG'
+native-code: 'arm64-v8a'
+
+SECEXP=1
+APK=/root/build_xime_home/v2rayNG/out/v2rayNG_2.3.13_arm64-v8a.apk

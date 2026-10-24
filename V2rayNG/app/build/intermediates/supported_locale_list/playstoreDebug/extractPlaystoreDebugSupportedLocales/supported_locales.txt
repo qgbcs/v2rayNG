@@ -1,0 +1,10 @@
+*en
+ar
+az
+bn
+bqi-rIR
+fa
+ru
+vi
+zh-rCN
+zh-rTW
