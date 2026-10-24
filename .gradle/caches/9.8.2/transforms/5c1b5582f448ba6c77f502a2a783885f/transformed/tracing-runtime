@@ -1,0 +1,4 @@
+androidx.tracing.Trace
+androidx.tracing.TraceApi29Impl
+androidx.tracing.TraceKt
+androidx.tracing.TraceKt$traceAsync$1

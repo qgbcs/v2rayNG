@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coil-compose/3.6.3/coil-compose-3.6.3.module",
+    "group": "io.coil-kt.coil3",
+    "module": "coil-compose",
+    "version": "3.6.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil-compose.aar",
+          "url": "coil-compose-android-3.6.3.aar",
+          "size": 14002,
+          "sha512": "0eebddadace1754cdf11afe7885082ef9879e84d4718da1ae9155166f4a2255f37e9d8676d2d033b55956bb30aea7292ae71fcf075dbfd79b7e22fb1c2f7b38d",
+          "sha256": "88ec0f3364e764260ea819dee8314928eab83b693029cd52d2a3d8962f6c0cb0",
+          "sha1": "15e4d6cb9e23baa068694b831ece153f82693c03",
+          "md5": "a552d2761cd07e2a4e9821e8810d7c58"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil-compose.aar",
+          "url": "coil-compose-android-3.6.3.aar",
+          "size": 14002,
+          "sha512": "0eebddadace1754cdf11afe7885082ef9879e84d4718da1ae9155166f4a2255f37e9d8676d2d033b55956bb30aea7292ae71fcf075dbfd79b7e22fb1c2f7b38d",
+          "sha256": "88ec0f3364e764260ea819dee8314928eab83b693029cd52d2a3d8962f6c0cb0",
+          "sha1": "15e4d6cb9e23baa068694b831ece153f82693c03",
+          "md5": "a552d2761cd07e2a4e9821e8810d7c58"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "coil-compose-android-3.6.3-sources.jar",
+          "url": "coil-compose-android-3.6.3-sources.jar",
+          "size": 5476,
+          "sha512": "76f78fc8e21ba26fdfba4d78d66dfc3aa89d029798d19807718b8f4d0c62b7264e903bfc67e45d2cad11dab5ccefffec2fe01e9177edd4c21421fd29b9e20f2d",
+          "sha256": "31174b39d8ac98c986533e3f82cc62a5be244fee3d44dcf00f249e7d1849650a",
+          "sha1": "c0579e5ea19c4eedf6aa44379d0add2f7436ec73",
+          "md5": "a43398b8e04292f126e5158abd6b3267"
+        }
+      ]
+    }
+  ]
+}

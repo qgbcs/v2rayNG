@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coil/3.6.3/coil-3.6.3.module",
+    "group": "io.coil-kt.coil3",
+    "module": "coil",
+    "version": "3.6.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil.aar",
+          "url": "coil-android-3.6.3.aar",
+          "size": 8733,
+          "sha512": "e6cdf59f5893e4004b9a52ae51f6d456fdfe64b2991bad4ba93b69a19422a75ee109ff9f56018b382db58c20834c3693f375d7c4a5504d5c7cc9e21ed87b0eb1",
+          "sha256": "8a62f0f9eb97a33b73b7f3cb0e163a756114afb8480d1a7efa229cbcd0c3f3fa",
+          "sha1": "6022da99bc402da878dc57e9e6c2d409ff18273c",
+          "md5": "6e3b0381f1da1b691ed30b32946b9b1a"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil.aar",
+          "url": "coil-android-3.6.3.aar",
+          "size": 8733,
+          "sha512": "e6cdf59f5893e4004b9a52ae51f6d456fdfe64b2991bad4ba93b69a19422a75ee109ff9f56018b382db58c20834c3693f375d7c4a5504d5c7cc9e21ed87b0eb1",
+          "sha256": "8a62f0f9eb97a33b73b7f3cb0e163a756114afb8480d1a7efa229cbcd0c3f3fa",
+          "sha1": "6022da99bc402da878dc57e9e6c2d409ff18273c",
+          "md5": "6e3b0381f1da1b691ed30b32946b9b1a"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "coil-android-3.6.3-sources.jar",
+          "url": "coil-android-3.6.3-sources.jar",
+          "size": 3233,
+          "sha512": "4dd15456c9fafb884032bca591ca459f4e472f6d7f25c9003f7c6dd0ea4842540c8b97cc20a0fb24a3d2bf3b1a434c5ca34a7802402e33e7beb83608499f3e8f",
+          "sha256": "8066e89ff9de76d2925364d272ca3548c08ef5c29c6f523180b20a25377ce875",
+          "sha1": "3a05fba4bf267a6b857803c82aa70b978a4974d8",
+          "md5": "a7fd8bc7e5c74b96c6d62002131935cc"
+        }
+      ]
+    }
+  ]
+}

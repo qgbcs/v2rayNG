@@ -1,0 +1,887 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.v2ray.ang"
+4    android:versionCode="4000753"
+5    android:versionName="2.3.13" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="37" />
+9-->INJECTED
+10
+11    <supports-screens
+11-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:6:5-11:40
+12        android:anyDensity="true"
+12-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:7:9-34
+13        android:largeScreens="true"
+13-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:8:9-36
+14        android:normalScreens="true"
+14-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:9:9-37
+15        android:smallScreens="true"
+15-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:10:9-36
+16        android:xlargeScreens="true" />
+16-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:11:9-37
+17
+18    <uses-feature
+18-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:13:5-15:36
+19        android:name="android.hardware.camera"
+19-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:14:9-47
+20        android:required="false" />
+20-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:15:9-33
+21    <uses-feature
+21-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:16:5-18:36
+22        android:name="android.hardware.camera.autofocus"
+22-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:17:9-57
+23        android:required="false" />
+23-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:18:9-33
+24    <uses-feature
+24-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:19:5-21:36
+25        android:name="android.software.leanback"
+25-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:20:9-49
+26        android:required="false" />
+26-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:21:9-33
+27    <uses-feature
+27-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:22:5-24:36
+28        android:name="android.hardware.touchscreen"
+28-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:23:9-52
+29        android:required="false" />
+29-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:24:9-33
+30
+31    <!-- https://developer.android.com/about/versions/11/privacy/package-visibility -->
+32    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+32-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:27:5-29:77
+32-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:28:9-61
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:30:5-79
+33-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:30:22-76
+34    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+34-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:31:5-79
+34-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:31:22-76
+35    <uses-permission android:name="android.permission.ACCESS_LOCAL_NETWORK" />
+35-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:32:5-79
+35-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:32:22-76
+36    <uses-permission android:name="android.permission.INTERNET" />
+36-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:33:5-67
+36-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:33:22-64
+37    <uses-permission android:name="android.permission.CAMERA" />
+37-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:34:5-65
+37-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:34:22-62
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+38-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:35:5-36:51
+38-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:35:22-74
+39    <uses-permission
+39-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:37:5-39:38
+40        android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+40-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:38:9-73
+41        android:minSdkVersion="34" />
+41-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:39:9-35
+42    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+43    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+43-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:41:5-77
+43-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:41:22-74
+44    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+44-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:42:5-81
+44-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:42:22-78
+45    <uses-permission android:name="android.permission.WAKE_LOCK" />
+45-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:23:5-68
+45-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:23:22-65
+46
+47    <permission
+47-->[androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:22:5-24:47
+48        android:name="com.v2ray.ang.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+48-->[androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:23:9-81
+49        android:protectionLevel="signature" />
+49-->[androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:24:9-44
+50
+51    <uses-permission android:name="com.v2ray.ang.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+51-->[androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:26:5-97
+51-->[androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:26:22-94
+52
+53    <application
+53-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:44:5-366:19
+54        android:name="com.v2ray.ang.AngApplication"
+54-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:45:9-39
+55        android:allowBackup="true"
+55-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:46:9-35
+56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+56-->[androidx.core:core:1.19.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/AndroidManifest.xml:28:18-86
+57        android:banner="@mipmap/ic_banner"
+57-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:47:9-43
+58        android:debuggable="true"
+59        android:extractNativeLibs="true"
+59-->INJECTED
+60        android:icon="@mipmap/ic_launcher"
+60-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:48:9-43
+61        android:label="@string/app_name"
+61-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:49:9-41
+62        android:localeConfig="@xml/_generated_res_locale_config"
+63        android:networkSecurityConfig="@xml/network_security_config"
+63-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:50:9-69
+64        android:supportsRtl="true"
+64-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:51:9-35
+65        android:theme="@style/AppThemeDayNight.NoActionBar"
+65-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:52:9-60
+66        android:usesCleartextTraffic="true" >
+66-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:53:9-44
+67        <service
+67-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:55:9-62:19
+68            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+68-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:56:13-82
+69            android:enabled="false"
+69-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:57:13-36
+70            android:exported="false" >
+70-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:58:13-37
+71            <meta-data
+71-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:59:13-61:40
+72                android:name="autoStoreLocales"
+72-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:60:17-48
+73                android:value="true" />
+73-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:61:17-37
+74        </service>
+75
+76        <activity
+76-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:64:9-81:20
+77            android:name="com.v2ray.ang.ui.main.MainActivity"
+77-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:65:13-49
+78            android:exported="true"
+78-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:66:13-36
+79            android:launchMode="singleTask" >
+79-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:67:13-44
+80            <intent-filter>
+80-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:68:13-73:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:69:17-69
+81-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:69:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:71:17-77
+83-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:71:27-74
+84                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+84-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:72:17-86
+84-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:72:27-83
+85            </intent-filter>
+86            <intent-filter>
+86-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:74:13-76:29
+87                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+87-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:75:17-99
+87-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:75:25-96
+88            </intent-filter>
+89
+90            <meta-data
+90-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:78:13-80:53
+91                android:name="android.app.shortcuts"
+91-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:79:17-53
+92                android:resource="@xml/shortcuts" />
+92-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:80:17-50
+93        </activity>
+94        <activity
+94-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:82:9-85:73
+95            android:name="com.v2ray.ang.ui.server.ServerVmessActivity"
+95-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:83:13-58
+96            android:exported="false"
+96-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:84:13-37
+97            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+97-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:85:13-70
+98        <activity
+98-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:86:9-89:73
+99            android:name="com.v2ray.ang.ui.server.ServerVlessActivity"
+99-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:87:13-58
+100            android:exported="false"
+100-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:88:13-37
+101            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+101-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:89:13-70
+102        <activity
+102-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:90:9-93:73
+103            android:name="com.v2ray.ang.ui.server.ServerShadowsocksActivity"
+103-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:91:13-64
+104            android:exported="false"
+104-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:92:13-37
+105            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+105-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:93:13-70
+106        <activity
+106-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:94:9-97:73
+107            android:name="com.v2ray.ang.ui.server.ServerSocksActivity"
+107-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:95:13-58
+108            android:exported="false"
+108-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:96:13-37
+109            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+109-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:97:13-70
+110        <activity
+110-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:98:9-101:73
+111            android:name="com.v2ray.ang.ui.server.ServerHttpActivity"
+111-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:99:13-57
+112            android:exported="false"
+112-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:100:13-37
+113            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+113-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:101:13-70
+114        <activity
+114-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:102:9-105:73
+115            android:name="com.v2ray.ang.ui.server.ServerTrojanActivity"
+115-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:103:13-59
+116            android:exported="false"
+116-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:104:13-37
+117            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+117-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:105:13-70
+118        <activity
+118-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:106:9-109:73
+119            android:name="com.v2ray.ang.ui.server.ServerWireguardActivity"
+119-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:107:13-62
+120            android:exported="false"
+120-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:108:13-37
+121            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+121-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:109:13-70
+122        <activity
+122-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:110:9-113:73
+123            android:name="com.v2ray.ang.ui.server.ServerHysteria2Activity"
+123-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:111:13-62
+124            android:exported="false"
+124-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:112:13-37
+125            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+125-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:113:13-70
+126        <activity
+126-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:114:9-117:73
+127            android:name="com.v2ray.ang.ui.server.ServerCustomConfigActivity"
+127-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:115:13-65
+128            android:exported="false"
+128-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:116:13-37
+129            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+129-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:117:13-70
+130        <activity
+130-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:118:9-121:73
+131            android:name="com.v2ray.ang.ui.server.ServerGroupActivity"
+131-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:119:13-58
+132            android:exported="false"
+132-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:120:13-37
+133            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+133-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:121:13-70
+134        <activity
+134-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:122:9-125:73
+135            android:name="com.v2ray.ang.ui.server.ServerProxyChainActivity"
+135-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:123:13-63
+136            android:exported="false"
+136-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:124:13-37
+137            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+137-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:125:13-70
+138        <activity
+138-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:126:9-128:40
+139            android:name="com.v2ray.ang.ui.settings.SettingsActivity"
+139-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:127:13-57
+140            android:exported="false" />
+140-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:128:13-37
+141        <activity
+141-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:129:9-131:40
+142            android:name="com.v2ray.ang.ui.perappproxy.PerAppProxyActivity"
+142-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:130:13-63
+143            android:exported="false" />
+143-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:131:13-37
+144        <activity
+144-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:132:9-134:40
+145            android:name="com.v2ray.ang.ui.apppicker.AppPickerActivity"
+145-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:133:13-59
+146            android:exported="false" />
+146-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:134:13-37
+147        <activity
+147-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:135:9-137:40
+148            android:name="com.v2ray.ang.ui.ScannerActivity"
+148-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:136:13-47
+149            android:exported="false" />
+149-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:137:13-37
+150        <activity
+150-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:138:9-140:40
+151            android:name="com.v2ray.ang.ui.logcat.LogcatActivity"
+151-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:139:13-53
+152            android:exported="false" />
+152-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:140:13-37
+153        <activity
+153-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:141:9-143:40
+154            android:name="com.v2ray.ang.ui.routing.RoutingSettingActivity"
+154-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:142:13-62
+155            android:exported="false" />
+155-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:143:13-37
+156        <activity
+156-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:144:9-147:40
+157            android:name="com.v2ray.ang.ui.routing.RoutingEditActivity"
+157-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:145:13-59
+158            android:exported="false"
+158-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:147:13-37
+159            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+159-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:146:13-70
+160        <activity
+160-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:148:9-150:40
+161            android:name="com.v2ray.ang.ui.subscription.SubSettingActivity"
+161-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:149:13-63
+162            android:exported="false" />
+162-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:150:13-37
+163        <activity
+163-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:151:9-153:40
+164            android:name="com.v2ray.ang.ui.userasset.UserAssetActivity"
+164-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:152:13-59
+165            android:exported="false" />
+165-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:153:13-37
+166        <activity
+166-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:154:9-157:40
+167            android:name="com.v2ray.ang.ui.userasset.UserAssetUrlActivity"
+167-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:155:13-62
+168            android:exported="false"
+168-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:157:13-37
+169            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+169-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:156:13-70
+170        <activity
+170-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:159:9-162:40
+171            android:name="com.v2ray.ang.ui.subscription.SubEditActivity"
+171-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:160:13-60
+172            android:exported="false"
+172-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:162:13-37
+173            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+173-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:161:13-70
+174        <activity
+174-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:163:9-165:40
+175            android:name="com.v2ray.ang.ui.shortcut.ScScannerActivity"
+175-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:164:13-58
+176            android:exported="false" />
+176-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:165:13-37
+177        <activity
+177-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:166:9-171:79
+178            android:name="com.v2ray.ang.ui.shortcut.ScSwitchActivity"
+178-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:167:13-57
+179            android:excludeFromRecents="true"
+179-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:168:13-46
+180            android:exported="false"
+180-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:169:13-37
+181            android:process=":daemon"
+181-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:170:13-38
+182            android:theme="@style/AppThemeDayNight.NoActionBar.Translucent" />
+182-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:171:13-76
+183        <activity
+183-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:172:9-177:79
+184            android:name="com.v2ray.ang.ui.shortcut.ScStartActivity"
+184-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:173:13-56
+185            android:excludeFromRecents="true"
+185-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:174:13-46
+186            android:exported="false"
+186-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:175:13-37
+187            android:process=":daemon"
+187-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:176:13-38
+188            android:theme="@style/AppThemeDayNight.NoActionBar.Translucent" />
+188-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:177:13-76
+189        <activity
+189-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:178:9-183:79
+190            android:name="com.v2ray.ang.ui.shortcut.ScStopActivity"
+190-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:179:13-55
+191            android:excludeFromRecents="true"
+191-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:180:13-46
+192            android:exported="false"
+192-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:181:13-37
+193            android:process=":daemon"
+193-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:182:13-38
+194            android:theme="@style/AppThemeDayNight.NoActionBar.Translucent" />
+194-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:183:13-76
+195        <activity
+195-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:185:9-203:20
+196            android:name="com.v2ray.ang.ui.UrlSchemeActivity"
+196-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:186:13-49
+197            android:exported="true" >
+197-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:187:13-36
+198            <intent-filter>
+198-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:188:13-192:29
+199                <action android:name="android.intent.action.SEND" />
+199-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:189:17-69
+199-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:189:25-66
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:190:17-76
+201-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:190:27-73
+202
+203                <data android:mimeType="text/plain" />
+203-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:191:17-55
+203-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:191:23-52
+204            </intent-filter>
+205            <intent-filter>
+205-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:193:13-202:29
+206                <action android:name="android.intent.action.VIEW" />
+206-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:194:17-69
+206-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:194:25-66
+207
+208                <category android:name="android.intent.category.BROWSABLE" />
+208-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:196:17-78
+208-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:196:27-75
+209                <category android:name="android.intent.category.DEFAULT" />
+209-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:190:17-76
+209-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:190:27-73
+210
+211                <data android:scheme="v2rayng" />
+211-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:191:17-55
+211-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:199:23-47
+212                <data android:host="install-config" />
+212-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:191:17-55
+212-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:200:23-52
+213                <data android:host="install-sub" />
+213-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:191:17-55
+213-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:200:23-52
+214            </intent-filter>
+215        </activity>
+216        <activity
+216-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:204:9-206:40
+217            android:name="com.v2ray.ang.ui.checkupdate.CheckUpdateActivity"
+217-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:205:13-63
+218            android:exported="false" />
+218-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:206:13-37
+219        <activity
+219-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:207:9-209:40
+220            android:name="com.v2ray.ang.ui.backup.BackupActivity"
+220-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:208:13-53
+221            android:exported="false" />
+221-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:209:13-37
+222        <activity
+222-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:210:9-212:40
+223            android:name="com.v2ray.ang.ui.AboutActivity"
+223-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:211:13-45
+224            android:exported="false" />
+224-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:212:13-37
+225        <activity
+225-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:213:9-215:40
+226            android:name="com.v2ray.ang.ui.TranslatorsActivity"
+226-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:214:13-51
+227            android:exported="false" />
+227-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:215:13-37
+228
+229        <service
+229-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:217:9-235:19
+230            android:name="com.v2ray.ang.service.CoreVpnService"
+230-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:218:13-51
+231            android:enabled="true"
+231-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:219:13-35
+232            android:exported="false"
+232-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:220:13-37
+233            android:foregroundServiceType="specialUse"
+233-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:221:13-55
+234            android:label="@string/app_name"
+234-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:222:13-45
+235            android:permission="android.permission.BIND_VPN_SERVICE"
+235-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:223:13-69
+236            android:process=":daemon" >
+236-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:224:13-38
+237            <intent-filter>
+237-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:226:13-228:29
+238                <action android:name="android.net.VpnService" />
+238-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:227:17-65
+238-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:227:25-62
+239            </intent-filter>
+240
+241            <meta-data
+241-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:229:13-231:40
+242                android:name="android.net.VpnService.SUPPORTS_ALWAYS_ON"
+242-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:230:17-73
+243                android:value="true" />
+243-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:231:17-37
+244
+245            <property
+245-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:232:13-234:39
+246                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+246-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:233:17-76
+247                android:value="vpn" />
+247-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:234:17-36
+248        </service>
+249        <service
+249-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:237:9-246:19
+250            android:name="com.v2ray.ang.service.CoreProxyOnlyService"
+250-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:238:13-57
+251            android:exported="false"
+251-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:239:13-37
+252            android:foregroundServiceType="specialUse"
+252-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:240:13-55
+253            android:label="@string/app_name"
+253-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:241:13-45
+254            android:process=":daemon" >
+254-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:242:13-38
+255            <property
+255-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:232:13-234:39
+256                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+256-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:233:17-76
+257                android:value="proxy" />
+257-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:234:17-36
+258        </service>
+259        <service
+259-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:248:9-257:19
+260            android:name="com.v2ray.ang.service.CoreRootService"
+260-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:249:13-52
+261            android:exported="false"
+261-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:250:13-37
+262            android:foregroundServiceType="specialUse"
+262-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:251:13-55
+263            android:label="@string/app_name"
+263-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:252:13-45
+264            android:process=":daemon" >
+264-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:253:13-38
+265            <property
+265-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:232:13-234:39
+266                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+266-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:233:17-76
+267                android:value="proxy" />
+267-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:234:17-36
+268        </service>
+269        <service
+269-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:259:9-267:19
+270            android:name="com.v2ray.ang.service.CoreTestService"
+270-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:260:13-52
+271            android:exported="false"
+271-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:261:13-37
+272            android:foregroundServiceType="specialUse"
+272-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:262:13-55
+273            android:process=":tasks" >
+273-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:263:13-37
+274            <property
+274-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:232:13-234:39
+275                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+275-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:233:17-76
+276                android:value="test" />
+276-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:234:17-36
+277        </service>
+278        <service
+278-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:269:9-277:19
+279            android:name="com.v2ray.ang.service.SubscriptionUpdateService"
+279-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:270:13-62
+280            android:exported="false"
+280-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:271:13-37
+281            android:foregroundServiceType="specialUse"
+281-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:272:13-55
+282            android:process=":tasks" >
+282-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:273:13-37
+283            <property
+283-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:232:13-234:39
+284                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+284-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:233:17-76
+285                android:value="test" />
+285-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:234:17-36
+286        </service>
+287
+288        <receiver
+288-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:279:9-291:20
+289            android:name="com.v2ray.ang.receiver.WidgetProvider"
+289-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:280:13-52
+290            android:exported="true"
+290-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:281:13-36
+291            android:process=":daemon" >
+291-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:282:13-38
+292            <meta-data
+292-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:283:13-285:63
+293                android:name="android.appwidget.provider"
+293-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:284:17-58
+294                android:resource="@xml/app_widget_provider" />
+294-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:285:17-60
+295
+296            <intent-filter>
+296-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:286:13-290:29
+297                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+297-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:287:17-84
+297-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:287:25-81
+298                <action android:name="com.v2ray.ang.action.widget.click" />
+298-->INJECTED
+298-->INJECTED
+299                <action android:name="com.v2ray.ang.action.activity" />
+299-->INJECTED
+299-->INJECTED
+300            </intent-filter>
+301        </receiver>
+302        <receiver
+302-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:292:9-301:20
+303            android:name="com.v2ray.ang.receiver.BootReceiver"
+303-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:293:13-50
+304            android:exported="true"
+304-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:294:13-36
+305            android:label="BootReceiver" >
+305-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:295:13-41
+306            <intent-filter>
+306-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:296:13-300:29
+307                <action android:name="android.intent.action.BOOT_COMPLETED" />
+307-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:297:17-79
+307-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:297:25-76
+308                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+308-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:298:17-86
+308-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:298:25-83
+309                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+309-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:299:17-84
+309-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:299:25-81
+310            </intent-filter>
+311        </receiver>
+312
+313        <service
+313-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:303:9-317:19
+314            android:name="com.v2ray.ang.service.QSTileService"
+314-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:304:13-50
+315            android:exported="true"
+315-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:305:13-36
+316            android:foregroundServiceType="specialUse"
+316-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:306:13-55
+317            android:icon="@drawable/ic_stat_name"
+317-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:307:13-50
+318            android:label="@string/app_tile_name"
+318-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:308:13-50
+319            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+319-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:309:13-77
+320            android:process=":daemon" >
+320-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:310:13-38
+321            <intent-filter>
+321-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:311:13-313:29
+322                <action android:name="android.service.quicksettings.action.QS_TILE" />
+322-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:312:17-87
+322-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:312:25-84
+323            </intent-filter>
+324
+325            <property
+325-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:232:13-234:39
+326                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+326-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:233:17-76
+327                android:value="tile" />
+327-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:234:17-36
+328        </service>
+329        <!-- =====================Tasker===================== -->
+330        <activity
+330-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:319:9-326:20
+331            android:name="com.v2ray.ang.ui.shortcut.TaskerActivity"
+331-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:320:13-55
+332            android:exported="true"
+332-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:321:13-36
+333            android:icon="@mipmap/ic_launcher" >
+333-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:322:13-47
+334            <intent-filter>
+334-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:323:13-325:29
+335                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+335-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:324:17-95
+335-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:324:25-92
+336            </intent-filter>
+337        </activity>
+338
+339        <receiver
+339-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:328:9-336:20
+340            android:name="com.v2ray.ang.receiver.TaskerReceiver"
+340-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:329:13-52
+341            android:exported="true"
+341-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:330:13-36
+342            android:process=":daemon" >
+342-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:331:13-38
+343            <intent-filter>
+343-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:333:13-335:29
+344                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+344-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:334:17-95
+344-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:334:25-92
+345            </intent-filter>
+346        </receiver>
+347        <!-- =====================Tasker===================== -->
+348        <provider
+348-->INJECTED
+349            android:name="androidx.startup.InitializationProvider"
+349-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:339:13-67
+350            android:authorities="com.v2ray.ang.androidx-startup"
+350-->INJECTED
+351            android:exported="false" >
+351-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:341:13-37
+352            <meta-data
+352-->[androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+353                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+353-->[androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+354                android:value="androidx.startup" />
+354-->[androidx.emoji2:emoji2:1.4.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/36ddd4b3035e724a12b80cfa4c9ace70/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+355            <meta-data
+355-->[androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:29:13-31:52
+356                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+356-->[androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:30:17-78
+357                android:value="androidx.startup" />
+357-->[androidx.lifecycle:lifecycle-process:2.11.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/6ef476f05735c8966dab11008f9959b8/transformed/lifecycle-process-2.11.0/AndroidManifest.xml:31:17-49
+358            <meta-data
+358-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:29:13-31:52
+359                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+359-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:30:17-85
+360                android:value="androidx.startup" />
+360-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:31:17-49
+361            <meta-data
+361-->[com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:16:13-18:52
+362                android:name="okhttp3.internal.platform.PlatformInitializer"
+362-->[com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:17:17-77
+363                android:value="androidx.startup" />
+363-->[com.squareup.okhttp3:okhttp-android:5.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ede10a03042e95ed746c63f1561dbbbd/transformed/okhttp/AndroidManifest.xml:18:17-49
+364        </provider>
+365
+366        <service
+366-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:351:9-354:37
+367            android:name="androidx.work.multiprocess.RemoteWorkManagerService"
+367-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:352:13-79
+368            android:exported="false"
+368-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:353:13-37
+369            android:process=":bg" />
+369-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:354:13-34
+370
+371        <provider
+371-->INJECTED
+372            android:name="androidx.core.content.FileProvider"
+372-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:357:13-62
+373            android:authorities="com.v2ray.ang.cache"
+373-->INJECTED
+374            android:exported="false"
+374-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:359:13-37
+375            android:grantUriPermissions="true" >
+375-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:360:13-47
+376            <meta-data
+376-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:361:13-363:55
+377                android:name="android.support.FILE_PROVIDER_PATHS"
+377-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:362:17-67
+378                android:resource="@xml/cache_paths" />
+378-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:363:17-52
+379        </provider>
+380
+381        <service
+381-->[androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:24:9-33:19
+382            android:name="androidx.camera.core.impl.MetadataHolderService"
+382-->[androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:25:13-75
+383            android:enabled="false"
+383-->[androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:26:13-36
+384            android:exported="false" >
+384-->[androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:27:13-37
+385            <meta-data
+385-->[androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:30:13-32:89
+386                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+386-->[androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:31:17-103
+387                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+387-->[androidx.camera:camera-camera2:1.6.2] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/071b9d4ce8d88053e15cecb10c63454a/transformed/camera-camera2-1.6.2/AndroidManifest.xml:32:17-86
+388        </service>
+389        <service
+389-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:39:9-45:35
+390            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+390-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:40:13-84
+391            android:directBootAware="false"
+391-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:41:13-44
+392            android:enabled="@bool/enable_system_job_service_default"
+392-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:42:13-70
+393            android:exported="true"
+393-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:43:13-36
+394            android:permission="android.permission.BIND_JOB_SERVICE" />
+394-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:44:13-69
+395        <service
+395-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:46:9-52:35
+396            android:name="androidx.work.impl.foreground.SystemForegroundService"
+396-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:47:13-81
+397            android:directBootAware="false"
+397-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:48:13-44
+398            android:enabled="@bool/enable_system_foreground_service_default"
+398-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:49:13-77
+399            android:exported="false" />
+399-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:50:13-37
+400
+401        <receiver
+401-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:54:9-59:35
+402            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+402-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:55:13-88
+403            android:directBootAware="false"
+403-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:56:13-44
+404            android:enabled="true"
+404-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:57:13-35
+405            android:exported="false" />
+405-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:58:13-37
+406        <receiver
+406-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:60:9-69:20
+407            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+407-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:61:13-88
+408            android:directBootAware="false"
+408-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:62:13-44
+409            android:enabled="false"
+409-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:63:13-36
+410            android:exported="false" >
+410-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:64:13-37
+411            <intent-filter>
+411-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:66:13-68:29
+412                <action android:name="android.intent.action.BOOT_COMPLETED" />
+412-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:297:17-79
+412-->/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/AndroidManifest.xml:297:25-76
+413            </intent-filter>
+414        </receiver>
+415        <receiver
+415-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:70:9-80:20
+416            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+416-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:71:13-78
+417            android:directBootAware="false"
+417-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:72:13-44
+418            android:enabled="true"
+418-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:73:13-35
+419            android:exported="true"
+419-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:74:13-36
+420            android:permission="android.permission.DUMP" >
+420-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:75:13-57
+421            <intent-filter>
+421-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:77:13-79:29
+422                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+422-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:78:17-88
+422-->[androidx.work:work-runtime:2.12.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/25b0d7f3263215b347dca913762cd236/transformed/work-runtime-2.12.0/AndroidManifest.xml:78:25-85
+423            </intent-filter>
+424        </receiver>
+425
+426        <activity
+426-->[androidx.compose.ui:ui-tooling-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d4c14d7bbc1985e75e94b5d5d8f48726/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+427            android:name="androidx.compose.ui.tooling.PreviewActivity"
+427-->[androidx.compose.ui:ui-tooling-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d4c14d7bbc1985e75e94b5d5d8f48726/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+428            android:exported="true" />
+428-->[androidx.compose.ui:ui-tooling-android:1.12.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/d4c14d7bbc1985e75e94b5d5d8f48726/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+429
+430        <uses-library
+430-->[androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+431            android:name="androidx.window.extensions"
+431-->[androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+432            android:required="false" />
+432-->[androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+433        <uses-library
+433-->[androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+434            android:name="androidx.window.sidecar"
+434-->[androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+435            android:required="false" />
+435-->[androidx.window:window:1.5.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/b19685146f0336bc354692f972f15d9b/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+436
+437        <receiver
+437-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:34:9-52:20
+438            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+438-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:35:13-76
+439            android:directBootAware="false"
+439-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:36:13-44
+440            android:enabled="true"
+440-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:37:13-35
+441            android:exported="true"
+441-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:38:13-36
+442            android:permission="android.permission.DUMP" >
+442-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:39:13-57
+443            <intent-filter>
+443-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:40:13-42:29
+444                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+444-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:17-91
+444-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:25-88
+445            </intent-filter>
+446            <intent-filter>
+446-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:43:13-45:29
+447                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+447-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:17-85
+447-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:25-82
+448            </intent-filter>
+449            <intent-filter>
+449-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:46:13-48:29
+450                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+450-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:17-88
+450-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:25-85
+451            </intent-filter>
+452            <intent-filter>
+452-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:49:13-51:29
+453                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+453-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:17-95
+453-->[androidx.profileinstaller:profileinstaller:1.4.1] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/ad5f19c58b5606ffda9c48f825daa315/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:25-92
+454            </intent-filter>
+455        </receiver>
+456
+457        <service
+457-->[androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:24:9-28:63
+458            android:name="androidx.room.MultiInstanceInvalidationService"
+458-->[androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:25:13-74
+459            android:directBootAware="true"
+459-->[androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:26:13-43
+460            android:exported="false" />
+460-->[androidx.room:room-runtime-android:2.7.0] /root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/c5c597709c4c889313b8467ff8374d86/transformed/room-runtime-release/AndroidManifest.xml:27:13-37
+461    </application>
+462
+463</manifest>

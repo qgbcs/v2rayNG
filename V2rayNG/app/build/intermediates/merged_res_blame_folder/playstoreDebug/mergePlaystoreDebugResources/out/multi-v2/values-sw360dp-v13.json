@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.v2ray.ang.app-mergePlaystoreDebugResources-61:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/res/values-sw360dp-v13/values-preference.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "102,229",
+                        "endColumns": "126,117",
+                        "endOffsets": "224,342"
+                    }
+                }
+            ]
+        }
+    ]
+}

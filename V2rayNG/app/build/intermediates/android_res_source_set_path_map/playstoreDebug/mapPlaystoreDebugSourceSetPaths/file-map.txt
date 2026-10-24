@@ -1,0 +1,12 @@
+com.v2ray.ang.app-playstore-0 /root/build_xime_home/v2rayNG/V2rayNG/app/build/generated/res/pngs/playstore/debug
+com.v2ray.ang.app-playstore-1 /root/build_xime_home/v2rayNG/V2rayNG/app/build/generated/res/resValues/playstore/debug
+com.v2ray.ang.app-updated_navigation_xml-2 /root/build_xime_home/v2rayNG/V2rayNG/app/build/generated/updated_navigation_xml/playstoreDebug
+com.v2ray.ang.app-playstoreDebug-3 /root/build_xime_home/v2rayNG/V2rayNG/app/build/intermediates/generated_locale_config_incremental_dir/playstoreDebug/generatePlaystoreDebugLocaleConfig
+com.v2ray.ang.app-packagePlaystoreDebugResources-4 /root/build_xime_home/v2rayNG/V2rayNG/app/build/intermediates/incremental/playstoreDebug/packagePlaystoreDebugResources/merged.dir
+com.v2ray.ang.app-packagePlaystoreDebugResources-5 /root/build_xime_home/v2rayNG/V2rayNG/app/build/intermediates/incremental/playstoreDebug/packagePlaystoreDebugResources/stripped.dir
+com.v2ray.ang.app-playstoreDebug-6 /root/build_xime_home/v2rayNG/V2rayNG/app/build/intermediates/merged_res/playstoreDebug/mergePlaystoreDebugResources
+com.v2ray.ang.app-debug-7 /root/build_xime_home/v2rayNG/V2rayNG/app/src/debug/res
+com.v2ray.ang.app-main-8 /root/build_xime_home/v2rayNG/V2rayNG/app/src/main/res
+com.v2ray.ang.app-playstore-9 /root/build_xime_home/v2rayNG/V2rayNG/app/src/playstore/res
+com.v2ray.ang.app-playstoreDebug-10 /root/build_xime_home/v2rayNG/V2rayNG/app/src/playstoreDebug/res
+gradleHome-0 /root/build_xime_home/v2rayNG/.gradle

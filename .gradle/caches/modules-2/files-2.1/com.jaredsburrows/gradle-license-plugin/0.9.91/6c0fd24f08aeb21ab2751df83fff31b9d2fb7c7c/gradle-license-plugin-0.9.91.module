@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.jaredsburrows",
+    "module": "gradle-license-plugin",
+    "version": "0.9.91",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "gradle-license-plugin-0.9.91.jar",
+          "url": "gradle-license-plugin-0.9.91.jar",
+          "size": 247240,
+          "sha512": "7405d1bdd934ae3e28510d66dc30a8f280e621fbec4b3832b197b2d625d9229ecb10eb8d2467ae336ea15e8b726e0a490fe980089daffb5a94b9f083a54749c3",
+          "sha256": "c5261b6cb074b7da1d986bf909a8b5a2c5280a08504b559505d47e5a2fffc286",
+          "sha1": "e594bcf2536c6e16124794dc77f2ac8d26ec0449",
+          "md5": "654058af138af0ba863ef6868a4dd029"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.4.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-html-jvm",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.15.2"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-model",
+          "version": {
+            "requires": "3.9.16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-license-plugin-0.9.91.jar",
+          "url": "gradle-license-plugin-0.9.91.jar",
+          "size": 247240,
+          "sha512": "7405d1bdd934ae3e28510d66dc30a8f280e621fbec4b3832b197b2d625d9229ecb10eb8d2467ae336ea15e8b726e0a490fe980089daffb5a94b9f083a54749c3",
+          "sha256": "c5261b6cb074b7da1d986bf909a8b5a2c5280a08504b559505d47e5a2fffc286",
+          "sha1": "e594bcf2536c6e16124794dc77f2ac8d26ec0449",
+          "md5": "654058af138af0ba863ef6868a4dd029"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-license-plugin-0.9.91-javadoc.jar",
+          "url": "gradle-license-plugin-0.9.91-javadoc.jar",
+          "size": 405,
+          "sha512": "d0f8420beb24c554c5e7d166061ce98e6f75534ac4e311c9f2cbfdc2d0c09811b597a024b71139ebea3ec85d1eead5a0c0a76801bb8778ee738ef716d9c73364",
+          "sha256": "b09481037cf71096f4dce91823a26ad3597a263439dda67a216b5462ac7201aa",
+          "sha1": "bb5a6931f63e737d242a8633927ac4ca911cef34",
+          "md5": "6b53c5d5c7ef1616eaffe5420d158e72"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-license-plugin-0.9.91-sources.jar",
+          "url": "gradle-license-plugin-0.9.91-sources.jar",
+          "size": 145274,
+          "sha512": "3412fcc274151ed613c8546f714c400929f05ae0891bbea203ec88765febd52abeec176ffc8fdd83f834f37a43f9a7a799345b70e2661bd5e6d18117d5aaec7a",
+          "sha256": "938c1f2bc5bfadd98a8abf79bbecccd4e45dbc88ef2cd66467e5dee5751d21d5",
+          "sha1": "406356f0ef19077b1a715d3916700737a2d1369e",
+          "md5": "e5d7a1ce6d7b1b59e934235faad635b0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.v2ray.ang.app-mergePlaystoreDebugResources-61:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/4c52839ecc0a724dec2aca782b2aa2ac/transformed/appcompat-1.8.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "824,894,978,1062,1158,1260,1362,1456",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "889,973,1057,1153,1255,1357,1451,1540"
+                    }
+                },
+                {
+                    "source": "/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "3,10,12,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "143,547,608,681",
+                        "endLines": "8,10,12,17",
+                        "endColumns": "12,59,71,12",
+                        "endOffsets": "541,602,675,912"
+                    },
+                    "to": {
+                        "startLines": "2,8,9,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,458,517,588",
+                        "endLines": "7,8,9,13",
+                        "endColumns": "12,58,70,12",
+                        "endOffsets": "453,512,583,819"
+                    }
+                }
+            ]
+        }
+    ]
+}

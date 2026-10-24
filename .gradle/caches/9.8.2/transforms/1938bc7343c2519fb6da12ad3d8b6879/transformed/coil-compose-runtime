@@ -1,0 +1,5 @@
+coil3.compose.SingletonAsyncImageKt
+coil3.compose.SingletonAsyncImagePainterKt
+coil3.compose.SingletonImageLoadersKt
+coil3.compose.SingletonImageLoadersKt$sam$coil3_SingletonImageLoader_Factory$0
+coil3.compose.SingletonSubcomposeAsyncImageKt

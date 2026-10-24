@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.profileinstaller",
+    "module": "profileinstaller",
+    "version": "1.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "profileinstaller-1.4.1-sources.jar",
+          "url": "profileinstaller-1.4.1-sources.jar",
+          "size": 44465,
+          "sha512": "589ae87a7388d486059ea4753a90fc2a56f9e570bdf0b4f3099ad067e59953c8db4451ad21d95a8251773f9db4a977ded4937a17232550f0bd550509ad54a774",
+          "sha256": "a20b963dad2bf9de25c5d043d4dc50d01353e3ee1580e1813ebdfe8587acf899",
+          "sha1": "f692a2c2bc83b34bd1e925383fedf7eb8e7a9df8",
+          "md5": "26090a41c0305bf5787c23c148f77c4d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "profileinstaller-1.4.1.aar",
+          "url": "profileinstaller-1.4.1.aar",
+          "size": 54044,
+          "sha512": "a92508d83a9f2aaa4d3b265350757b461c99702ea3ffd0e0b3c9a5bf0d3cc30ca3d8c7e05cf8d5b1f3b6f01782c76a6cf36f6275212d2e8b28b1cb34cc317556",
+          "sha256": "b519f9317ded1e2c1c2993038c0692e30da326ca99097d9331ff2d3a5861a428",
+          "sha1": "be24aadea661ee537836169df5026fb8f370af9f",
+          "md5": "372c7bc75044e27c759f3fb8f820e255"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.concurrent",
+          "module": "concurrent-futures",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "profileinstaller-1.4.1.aar",
+          "url": "profileinstaller-1.4.1.aar",
+          "size": 54044,
+          "sha512": "a92508d83a9f2aaa4d3b265350757b461c99702ea3ffd0e0b3c9a5bf0d3cc30ca3d8c7e05cf8d5b1f3b6f01782c76a6cf36f6275212d2e8b28b1cb34cc317556",
+          "sha256": "b519f9317ded1e2c1c2993038c0692e30da326ca99097d9331ff2d3a5861a428",
+          "sha1": "be24aadea661ee537836169df5026fb8f370af9f",
+          "md5": "372c7bc75044e27c759f3fb8f820e255"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "profileinstaller-1.4.1-versionMetadata.json",
+          "url": "profileinstaller-1.4.1-versionMetadata.json",
+          "size": 4104,
+          "sha512": "09c069d9089dbbd9061ecc75a31c963308bda9e62fb83d40f20fd7ed1d08c62d4c88e72875cb5720a3d13a0817a8e52b36f9f7d20c4c2023798e144ca02a0f07",
+          "sha256": "009c4fdbf1eb37ebc6670d98211a6a0e8f8f8e2aea394f3cd40f9ffddfc8e1d3",
+          "sha1": "49d80129c407a004bddd85ce9b979f974f3a8a2c",
+          "md5": "459b5fb2f39e8569ec2328bac7a2a80d"
+        }
+      ]
+    }
+  ]
+}

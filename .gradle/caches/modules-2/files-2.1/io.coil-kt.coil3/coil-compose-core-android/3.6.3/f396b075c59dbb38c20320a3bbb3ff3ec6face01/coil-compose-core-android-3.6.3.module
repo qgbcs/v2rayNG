@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coil-compose-core/3.6.3/coil-compose-core-3.6.3.module",
+    "group": "io.coil-kt.coil3",
+    "module": "coil-compose-core",
+    "version": "3.6.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil-compose-core.aar",
+          "url": "coil-compose-core-android-3.6.3.aar",
+          "size": 139267,
+          "sha512": "2187eec6207993fd883323edd71d6287439c9e55d95b229fa90a5d87a3b652c3ab489f8d7b2255d7897e2e6a86b9ef674a66b5d41a1f07e3789f9329f33f6db5",
+          "sha256": "3ce609751d74d63280f47d8b32199898ee98ed9567de71f36d75626b0cd660d4",
+          "sha1": "5d6e74c5417ac58183ee635d856e6c9f962cab47",
+          "md5": "a4203b252c0aba233fe0f590b8b5f622"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-drawablepainter",
+          "version": {
+            "requires": "0.37.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil-compose-core.aar",
+          "url": "coil-compose-core-android-3.6.3.aar",
+          "size": 139267,
+          "sha512": "2187eec6207993fd883323edd71d6287439c9e55d95b229fa90a5d87a3b652c3ab489f8d7b2255d7897e2e6a86b9ef674a66b5d41a1f07e3789f9329f33f6db5",
+          "sha256": "3ce609751d74d63280f47d8b32199898ee98ed9567de71f36d75626b0cd660d4",
+          "sha1": "5d6e74c5417ac58183ee635d856e6c9f962cab47",
+          "md5": "a4203b252c0aba233fe0f590b8b5f622"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "coil-compose-core-android-3.6.3-sources.jar",
+          "url": "coil-compose-core-android-3.6.3-sources.jar",
+          "size": 26405,
+          "sha512": "1f41047b2c1e1f00016492bcae50e03462f7df0722a4303bcc9c44c1fba375d236ea24d9be7d9dc8bc199d71ce892583a8d898045ec678eb85b5e96cece378f3",
+          "sha256": "a8e8b1818c9771d84e7cbac498536cecc54490b90e32f090eaccdaf87ee0b8d7",
+          "sha1": "9c2846ce14f724280f7bed32eba9d9030605ba5f",
+          "md5": "5299dedb0870665ef189eb402225fc42"
+        }
+      ]
+    }
+  ]
+}

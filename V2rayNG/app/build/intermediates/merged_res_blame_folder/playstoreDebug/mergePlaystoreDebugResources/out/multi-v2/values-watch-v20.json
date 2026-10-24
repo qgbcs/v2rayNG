@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.v2ray.ang.app-mergePlaystoreDebugResources-61:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/4c52839ecc0a724dec2aca782b2aa2ac/transformed/appcompat-1.8.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

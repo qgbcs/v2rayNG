@@ -1,0 +1,2 @@
+coil3.core
+id coil3_request_manager

@@ -1,0 +1,9 @@
+androidx.core.backported.fixes.BackportedFixManager
+androidx.core.backported.fixes.BackportedFixManager$WhenMappings
+androidx.core.backported.fixes.KnownIssue
+androidx.core.backported.fixes.KnownIssues
+androidx.core.backported.fixes.KnownIssues$Companion
+androidx.core.backported.fixes.Status
+androidx.core.backported.fixes.StatusResolver
+androidx.core.backported.fixes.SystemPropertyResolver
+androidx.core.backported.fixes.SystemPropertyResolverKt

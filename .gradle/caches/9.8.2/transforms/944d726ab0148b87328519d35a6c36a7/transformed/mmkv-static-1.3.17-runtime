@@ -1,0 +1,13 @@
+com.tencent.mmkv.BuildConfig
+com.tencent.mmkv.MMKV
+com.tencent.mmkv.MMKV$1
+com.tencent.mmkv.MMKV$LibLoader
+com.tencent.mmkv.MMKVContentChangeNotification
+com.tencent.mmkv.MMKVContentProvider
+com.tencent.mmkv.MMKVHandler
+com.tencent.mmkv.MMKVLogLevel
+com.tencent.mmkv.MMKVProcessUtil
+com.tencent.mmkv.MMKVRecoverStrategic
+com.tencent.mmkv.NativeBuffer
+com.tencent.mmkv.ParcelableMMKV
+com.tencent.mmkv.ParcelableMMKV$1

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.v2ray.ang.app-mergePlaystoreDebugResources-61:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/root/build_xime_home/v2rayNG/V2rayNG/app/src/main/res/values-v27/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "189"
+                    }
+                }
+            ]
+        }
+    ]
+}
