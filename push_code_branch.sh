@@ -38,7 +38,7 @@ rsync -a --delete --prune-empty-dirs \
   --include='*.kt' --include='*.java' --include='*.kts' --include='*.py' --include='*.sh' \
   --include='*.rb' --include='*.md' --include='*.toml' --include='*.pro' \
   --include='*.yml' --include='*.yaml' --include='*.json' \
-  --include='*.c' --include='*.h' --include='*.s' --include='*.mk' \
+  --include='*.c' --include='*.h' --include='*.s' --include='*.S' --include='*.mk' \
   --include='*.go' --include='*.mod' --include='*.sum' \
   --include='*.clang-format' --include='*.modulemap' \
   --include='AndroidManifest.xml' --include='gradle.properties' --include='gradle-wrapper.properties' \
