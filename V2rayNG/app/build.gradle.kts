@@ -25,19 +25,12 @@ android {
         }
         splits {
             abi {
-                isEnable = true
+                // Chaquopy 强制要求 ndk.abiFilters，而 AGP 禁止 abiFilters 与
+                // splits.abi 同 ABI 并存——二选一：显式关掉 splits，
+                // 由上面的 ndk.abiFilters 出单包（含所选 ABI）。
+                isEnable = false
                 reset()
-                if (!abiFilterList.isNullOrEmpty()) {
-                    include(*abiFilterList.toTypedArray())
-                } else {
-                    include(
-                        "arm64-v8a",
-                        "armeabi-v7a",
-                        "x86_64",
-                        "x86"
-                    )
-                }
-                isUniversalApk = abiFilterList.isNullOrEmpty()
+                isUniversalApk = true
             }
         }
 
