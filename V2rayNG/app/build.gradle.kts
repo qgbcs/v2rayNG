@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     id("com.jaredsburrows.license")
+    id("com.chaquo.python")
 }
 
 android {
@@ -162,6 +163,22 @@ android {
         }
     }
 
+}
+
+// 内嵌 Python（socks5_client_mqtt 数据面）：pip 依赖只有 paho-mqtt + ecdsa，
+// 与 xime 的 Chaquopy 配置保持一致（远端构建机 /usr/bin/python3.13）。
+chaquopy {
+    defaultConfig {
+        version = "3.13"
+        buildPython = listOf("/usr/bin/python3.13")
+        pip {
+            install("pip")
+            install("wheel")
+            install("setuptools")
+            install("paho-mqtt")
+            install("ecdsa")
+        }
+    }
 }
 
 dependencies {
