@@ -14,6 +14,16 @@ if (($#)); then
 fi
 
 # ============================================================
+# apk_sign.py 以 xime 为权威源，构建前自动校齐；
+# xime 不存在（如独立克隆环境）时跳过，使用本地现有副本。
+# ============================================================
+APK_SIGN_CANON="${APK_SIGN_CANON:-$PROJECT_DIR/../xime/apk_sign.py}"
+if [[ -f "$APK_SIGN_CANON" ]] && ! cmp -s "$APK_SIGN_CANON" "$PROJECT_DIR/apk_sign.py"; then
+    echo "同步 apk_sign.py: $APK_SIGN_CANON -> $PROJECT_DIR/apk_sign.py"
+    cp -f "$APK_SIGN_CANON" "$PROJECT_DIR/apk_sign.py"
+fi
+
+# ============================================================
 # 构建参数：需要调整时只修改本段。
 # SECEXP 可用环境变量临时覆盖（支持 2**64+7 这类表达式）。
 # ============================================================
