@@ -8,7 +8,7 @@ import android.content.Intent
 import android.net.VpnService
 import android.os.ParcelFileDescriptor
 import com.chaquo.python.Python
-import com.chaquo.python.android.AndroidPythonPlatform
+import com.chaquo.python.android.AndroidPlatform
 import com.v2ray.ang.BuildConfig
 import com.v2ray.ang.R
 import com.v2ray.ang.ui.MqttConfigActivity
@@ -117,7 +117,7 @@ class MqttVpnService : VpnService() {
         thread(name = "mqtt-vpn-python", isDaemon = true) {
             val rc = try {
                 if (!Python.isStarted()) {
-                    Python.start(AndroidPythonPlatform(applicationContext))
+                    Python.start(AndroidPlatform(applicationContext))
                 }
                 Python.getInstance()
                     .getModule("mqtt_vpn_android")
