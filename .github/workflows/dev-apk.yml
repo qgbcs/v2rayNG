@@ -32,7 +32,7 @@ jobs:
     - name: Overlay dev branch code
       run: |
         git fetch origin dev
-        git checkout dev -- . ':(exclude)hev-socks5-tunnel' ':(exclude)AndroidLibXrayLite'
+        git checkout FETCH_HEAD -- . ':(exclude)hev-socks5-tunnel' ':(exclude)AndroidLibXrayLite'
         echo '--- overlaid files (top) ---'
         git status --short | head -30
 
