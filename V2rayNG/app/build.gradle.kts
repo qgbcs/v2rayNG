@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     id("com.jaredsburrows.license")
+    id("com.chaquo.python")
 }
 
 android {
@@ -10,28 +11,26 @@ android {
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.v2ray.ang"
+        // 包名可由 -PapplicationId= 覆盖（debug_build_secexp.sh 传入），不传则用上游默认
+        applicationId = providers.gradleProperty("applicationId").orElse("com.v2ray.ang").get()
         minSdk = 24
         targetSdk = 37
         versionCode = 753
         versionName = "2.3.13"
 
         val abiFilterList = (properties["ABI_FILTERS"] as? String)?.split(';')
+        // Chaquopy 不读 splits.abi，要求 ndk.abiFilters；与 ABI_FILTERS 保持一致
+        ndk {
+            abiFilters += (abiFilterList ?: listOf("arm64-v8a", "armeabi-v7a", "x86_64", "x86"))
+        }
         splits {
             abi {
-                isEnable = true
+                // Chaquopy 强制要求 ndk.abiFilters，而 AGP 禁止 abiFilters 与
+                // splits.abi 同 ABI 并存——二选一：显式关掉 splits，
+                // 由上面的 ndk.abiFilters 出单包（含所选 ABI）。
+                isEnable = false
                 reset()
-                if (!abiFilterList.isNullOrEmpty()) {
-                    include(*abiFilterList.toTypedArray())
-                } else {
-                    include(
-                        "arm64-v8a",
-                        "armeabi-v7a",
-                        "x86_64",
-                        "x86"
-                    )
-                }
-                isUniversalApk = abiFilterList.isNullOrEmpty()
+                isUniversalApk = true
             }
         }
 
@@ -161,6 +160,22 @@ android {
         }
     }
 
+}
+
+// 内嵌 Python（socks5_client_mqtt 数据面）：pip 依赖只有 paho-mqtt + ecdsa，
+// 与 xime 的 Chaquopy 配置保持一致（远端构建机 /usr/bin/python3.13）。
+chaquopy {
+    defaultConfig {
+        version = "3.13"
+        buildPython = listOf("/usr/bin/python3.13")
+        pip {
+            install("pip")
+            install("wheel")
+            install("setuptools")
+            install("paho-mqtt")
+            install("ecdsa")
+        }
+    }
 }
 
 dependencies {
