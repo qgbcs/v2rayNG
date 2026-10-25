@@ -44,20 +44,26 @@ class TProxyService(
      * Starts the tun2socks process with the appropriate parameters.
      */
     override fun startTun2Socks() {
-//        LogUtil.i(AppConfig.TAG, "Starting HevSocks5Tunnel via JNI")
+        startTun2Socks(buildConfig())
+    }
 
-        val configContent = buildConfig()
-        val configFile = File(context.filesDir, "hev-socks5-tunnel.yaml").apply {
+    /**
+     * 用调用方给定的完整 YAML 配置启动 tun2socks。
+     *
+     * MqttVpnService 复用 hev 的 JNI 绑定（hev-jni.c 在 JNI_OnLoad 里用
+     * RegisterNatives 把符号注册到本类，其他类声明 external 函数无法绑定），
+     * 因此由本类代为启动；fd 仍取构造时传入的 vpnInterface。
+     */
+    fun startTun2Socks(configContent: String) {
+        val configFile = File(context.filesDir, "hev-mqtt-vpn.yaml").apply {
             writeText(configContent)
         }
-//        LogUtil.i(AppConfig.TAG, "Config file created: ${configFile.absolutePath}")
-        LogUtil.d(AppConfig.TAG, "HevSocks5Tunnel Config content:\n$configContent")
+        LogUtil.d(AppConfig.TAG, "HevSocks5Tunnel(mqtt-vpn) config:\n$configContent")
 
         try {
-//            LogUtil.i(AppConfig.TAG, "TProxyStartService...")
             TProxyStartService(configFile.absolutePath, vpnInterface.fd)
         } catch (e: Exception) {
-            LogUtil.e(AppConfig.TAG, "HevSocks5Tunnel exception: ${e.message}")
+            LogUtil.e(AppConfig.TAG, "HevSocks5Tunnel(mqtt-vpn) exception: ${e.message}")
         }
     }
 

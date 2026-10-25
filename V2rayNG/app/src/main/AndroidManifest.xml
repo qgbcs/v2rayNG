@@ -234,6 +234,32 @@
                 android:value="vpn" />
         </service>
 
+        <!-- MQTT VPN：独立于 v2ray 核心的数据面（Chaquopy + socks5_client_mqtt），
+             只复用建 VPN 流程；主进程运行以便与 Python 解释器同进程。 -->
+        <service
+            android:name=".service.MqttVpnService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="specialUse"
+            android:label="MQTT VPN"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            tools:ignore="VpnServicePolicy">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="vpn" />
+        </service>
+
+        <activity
+            android:name=".ui.MqttConfigActivity"
+            android:exported="true"
+            android:label="MQTT VPN">
+            <intent-filter>
+                <action android:name="com.v2ray.ang.MQTT_VPN_CONFIG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <service
             android:name=".service.CoreProxyOnlyService"
             android:exported="false"
