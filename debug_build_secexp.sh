@@ -27,12 +27,13 @@ fi
 # 构建参数：需要调整时只修改本段。
 # SECEXP 可用环境变量临时覆盖（支持 2**64+7 这类表达式）。
 # ============================================================
-unset BUILD_ABIS FLAVOR NDK_VERSION VERSION_CODE VERSION_NAME
+unset BUILD_ABIS FLAVOR NDK_VERSION VERSION_CODE VERSION_NAME APPLICATION_ID
 
 SECEXP="${SECEXP:-1}"                        # secexp 签名私钥指数
 BUILD_ABIS="${BUILD_ABIS:-arm64-v8a}"        # 对应 -PABI_FILTERS，多个用分号分隔
 FLAVOR="${FLAVOR:-playstore}"                # AGENTS.md 约定默认 Play Store 变体（可选 fdroid）
 NDK_VERSION="${NDK_VERSION:-30.0.16248370}"  # 与 .github/workflows/build.yml 一致
+APPLICATION_ID="${APPLICATION_ID:-qgb.n}"    # 包名（与 xime 版一致，环境变量可临时覆盖；fdroid 变体会追加 .fdroid 后缀）
 OUT_DIR="${OUT_DIR:-$PROJECT_DIR/out}"
 
 # 与 xime 版不同：不再借用外层 ~/build_xime_home/.gradle 等共享目录，
@@ -180,7 +181,8 @@ cd "$APP_DIR"
 chmod 755 gradlew
 echo "开始 Gradle 构建: assemble${FLAVOR_TASK}Debug（日志: $LOG_FILE）"
 if ! ./gradlew --no-daemon "assemble${FLAVOR_TASK}Debug" \
-        -PABI_FILTERS="$BUILD_ABIS" >"$LOG_FILE" 2>&1; then
+        -PABI_FILTERS="$BUILD_ABIS" \
+        -PapplicationId="$APPLICATION_ID" >"$LOG_FILE" 2>&1; then
     tail -n 100 "$LOG_FILE" >&2
     echo "错误: Gradle 构建失败，完整日志: $LOG_FILE" >&2
     exit 1
@@ -225,6 +227,21 @@ with zipfile.ZipFile(src, 'r') as zin:
 PY
 rm -f "$APK_PATH"
 APK_PATH="$REPACKED_APK"
+
+# 5b) Android 11+（R+，targetSdk>=30）强制要求 resources.arsc 等 STORED 条目
+#     4 字节对齐，否则安装报 -124 "Failed parse during installPackageLI"。
+#     上面的 Python 重打包只保留压缩方式、不保证对齐，必须在签名前补 zipalign
+#     （对齐改字节，v2/v3 签名必须在其后）。zipalign 输入输出固定 → 仍然确定可复现。
+ZIPALIGN_BIN="$(find "$SDK_DIR/build-tools" -maxdepth 2 -type f -name zipalign -print 2>/dev/null | sort -V | tail -n 1)"
+if [[ -z "$ZIPALIGN_BIN" || ! -x "$ZIPALIGN_BIN" ]]; then
+    echo "错误: 未找到可执行的 zipalign，SDK 路径: $SDK_DIR" >&2
+    exit 1
+fi
+ALIGNED_APK="$APK_OUT_DIR/aligned-${VERSION_CODE}-${FIRST_ABI}.apk"
+"$ZIPALIGN_BIN" -f -p 4 "$APK_PATH" "$ALIGNED_APK"
+rm -f "$APK_PATH"
+APK_PATH="$ALIGNED_APK"
+"$ZIPALIGN_BIN" -c -p 4 "$APK_PATH"
 
 # 6) 使用 apk_sign.py 通过 secexp 确定性生成签名密钥并签名
 python3 "$PROJECT_DIR/apk_sign.py" "$APK_PATH" \
