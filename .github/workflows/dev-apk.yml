@@ -1,0 +1,83 @@
+name: Dev APK (MQTT VPN)
+
+# MQTT VPN 开发迭代专用：dev 分支 push / 手动触发即出 debug 签名 APK。
+# 与正式 build.yml 的区别：无签名 secrets、只出 arm64-v8a debug 包、
+# 子模块已在 dev 分支拍平（无需 checkout submodules），libv2ray.aar
+# 固定用 gitlink 对应的 AndroidLibXrayLite tag（当前 v26.10.21）。
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - dev
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v7
+      with:
+        fetch-depth: '0'
+
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v4
+      with:
+        log-accepted-android-sdk-licenses: false
+        cmdline-tools-version: '14742923'
+        packages: 'platforms;android-37.0 build-tools;37.0.0 platform-tools'
+
+    - name: Install NDK
+      run: |
+        echo "y" | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager \
+          --channel=0 \
+          --install "ndk;30.0.16248370"
+        echo "NDK_HOME=$ANDROID_HOME/ndk/30.0.16248370" >> $GITHUB_ENV
+
+    - name: Ensure python3.13 for Chaquopy buildPython
+      run: |
+        if [ ! -x /usr/bin/python3.13 ]; then
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq python3.13 python3.13-venv python3-pip || true
+          # apt 装不到就退回 setup-python 的工具链路径软链
+          if [ ! -x /usr/bin/python3.13 ]; then
+            sudo ln -sf "$(command -v python3.13 || echo /usr/bin/python3)" /usr/bin/python3.13
+          fi
+        fi
+        /usr/bin/python3.13 -V
+
+    - name: Build libhevtun
+      run: |
+        bash compile-hevtun.sh
+        cp -r "$GITHUB_WORKSPACE/libs" "$GITHUB_WORKSPACE/V2rayNG/app"
+
+    - name: Download libv2ray.aar
+      run: |
+        mkdir -p V2rayNG/app/libs
+        curl -fsSL --retry 3 \
+          -o V2rayNG/app/libs/libv2ray.aar \
+          "https://github.com/2dust/AndroidLibXrayLite/releases/download/v26.10.21/libv2ray.aar"
+
+    - name: Setup Java
+      uses: actions/setup-java@v6.1.0
+      with:
+        distribution: 'temurin'
+        java-version: '21'
+
+    - name: Build debug APK
+      run: |
+        cd "$GITHUB_WORKSPACE/V2rayNG"
+        echo "sdk.dir=${ANDROID_HOME}" > local.properties
+        chmod 755 gradlew
+        ./gradlew assemblePlaystoreDebug -PABI_FILTERS=arm64-v8a
+
+    - name: Upload arm64-v8a debug APK
+      uses: actions/upload-artifact@v7
+      if: ${{ success() }}
+      with:
+        name: dev-apk
+        path: ${{ github.workspace }}/V2rayNG/app/build/outputs/apk/playstore/debug/*.apk
