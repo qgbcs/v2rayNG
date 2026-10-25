@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.v2ray.ang"
+    package="qgb.n"
     android:versionCode="4000753"
     android:versionName="2.3.13" >
 
@@ -45,10 +45,10 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <permission
-        android:name="com.v2ray.ang.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="qgb.n.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.v2ray.ang.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="qgb.n.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:name="com.v2ray.ang.AngApplication"
@@ -246,6 +246,39 @@
                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
                 android:value="vpn" />
         </service>
+
+        <!--
+             MQTT VPN：独立于 v2ray 核心的数据面（Chaquopy + socks5_client_mqtt），
+             只复用建 VPN 流程；主进程运行以便与 Python 解释器同进程。
+        -->
+        <service
+            android:name="com.v2ray.ang.service.MqttVpnService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="specialUse"
+            android:label="MQTT VPN"
+            android:permission="android.permission.BIND_VPN_SERVICE" >
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="vpn" />
+        </service>
+
+        <activity
+            android:name="com.v2ray.ang.ui.MqttConfigActivity"
+            android:exported="true"
+            android:label="MQTT VPN" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.v2ray.ang.MQTT_VPN_CONFIG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <service
             android:name="com.v2ray.ang.service.CoreProxyOnlyService"
             android:exported="false"
@@ -295,8 +328,8 @@
 
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.v2ray.ang.action.widget.click" />
-                <action android:name="com.v2ray.ang.action.activity" />
+                <action android:name="qgb.n.action.widget.click" />
+                <action android:name="qgb.n.action.activity" />
             </intent-filter>
         </receiver>
         <receiver
@@ -347,7 +380,7 @@
         <!-- =====================Tasker===================== -->
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.v2ray.ang.androidx-startup"
+            android:authorities="qgb.n.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
@@ -370,7 +403,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.v2ray.ang.cache"
+            android:authorities="qgb.n.cache"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data

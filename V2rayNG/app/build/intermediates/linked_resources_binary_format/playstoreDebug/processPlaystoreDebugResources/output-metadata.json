@@ -4,21 +4,16 @@
     "type": "LINKED_RESOURCES_BINARY_FORMAT",
     "kind": "Directory"
   },
-  "applicationId": "com.v2ray.ang",
+  "applicationId": "qgb.n",
   "variantName": "playstoreDebug",
   "elements": [
     {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
-          "value": "arm64-v8a"
-        }
-      ],
+      "type": "SINGLE",
+      "filters": [],
       "attributes": [],
       "versionCode": 4000753,
       "versionName": "2.3.13",
-      "outputFile": "linked-resources-binary-format-playstoreArm64-v8aDebug.ap_"
+      "outputFile": "linked-resources-binary-format-playstoreDebug.ap_"
     }
   ],
   "elementType": "File"

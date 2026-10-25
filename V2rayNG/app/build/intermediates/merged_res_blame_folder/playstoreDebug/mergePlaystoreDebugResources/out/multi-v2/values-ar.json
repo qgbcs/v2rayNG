@@ -4,24 +4,7 @@
             "outputFile": "com.v2ray.ang.app-mergePlaystoreDebugResources-61:/values-ar/values-ar.xml",
             "map": [
                 {
-                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/8adff891ab0471f9218156b954bb1eb0/transformed/core-1.19.1/res/values-ar/values-ar.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,148,250,345,448,551,653,767",
-                        "endColumns": "92,101,94,102,102,101,113,100",
-                        "endOffsets": "143,245,340,443,546,648,762,863"
-                    },
-                    "to": {
-                        "startLines": "127,128,129,130,131,132,133,403",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "7607,7700,7802,7897,8000,8103,8205,31483",
-                        "endColumns": "92,101,94,102,102,101,113,100",
-                        "endOffsets": "7695,7797,7892,7995,8098,8200,8314,31579"
-                    }
-                },
-                {
-                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/31dd73a104c9173f21525a3cb385606d/transformed/foundation/res/values-ar/values-ar.xml",
+                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/e957fe3d87afa970ee2ab6137150513e/transformed/foundation/res/values-ar/values-ar.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/3b8cfc157faccab77647edcb12a86b7c/transformed/ui/res/values-ar/values-ar.xml",
+                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/f3b2cbbfbefa574436b3d432112c710a/transformed/ui/res/values-ar/values-ar.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/4c52839ecc0a724dec2aca782b2aa2ac/transformed/appcompat-1.8.0/res/values-ar/values-ar.xml",
+                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/60b4b3cbce2a0d65e5cabed135e8cefa/transformed/appcompat-1.8.0/res/values-ar/values-ar.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -91,7 +74,24 @@
                     }
                 },
                 {
-                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/1c333341cf4c832d7c869536d4cfd2b0/transformed/material3/res/values-ar/values-ar.xml",
+                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/a8e07cc9bfa7fa11194d8dd8482d4e06/transformed/core-1.19.1/res/values-ar/values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,148,250,345,448,551,653,767",
+                        "endColumns": "92,101,94,102,102,101,113,100",
+                        "endOffsets": "143,245,340,443,546,648,762,863"
+                    },
+                    "to": {
+                        "startLines": "127,128,129,130,131,132,133,403",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "7607,7700,7802,7897,8000,8103,8205,31483",
+                        "endColumns": "92,101,94,102,102,101,113,100",
+                        "endOffsets": "7695,7797,7892,7995,8098,8200,8314,31579"
+                    }
+                },
+                {
+                    "source": "/root/build_xime_home/v2rayNG/.gradle/caches/9.8.2/transforms/680c56818177de8709ef3ccd7742c766/transformed/material3/res/values-ar/values-ar.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

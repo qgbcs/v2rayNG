@@ -93,6 +93,10 @@ The 'org.jetbrains.kotlin.android' plugin in project ':app' is no longer require
 > Task :app:mergePlaystoreDebugNativeDebugMetadata NO-SOURCE
 > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generatePlaystoreDebugBuildConfig UP-TO-DATE
+> Task :app:extractPlaystoreDebugPythonBuildPackages UP-TO-DATE
+> Task :app:installPlaystoreDebugPythonRequirements UP-TO-DATE
+> Task :app:mergePlaystoreDebugPythonSources UP-TO-DATE
+> Task :app:generatePlaystoreDebugPythonProxies UP-TO-DATE
 > Task :app:checkPlaystoreDebugAarMetadata UP-TO-DATE
 > Task :app:generatePlaystoreDebugResValues UP-TO-DATE
 > Task :app:mapPlaystoreDebugSourceSetPaths UP-TO-DATE
@@ -106,14 +110,14 @@ The 'org.jetbrains.kotlin.android' plugin in project ':app' is no longer require
 > Task :app:parsePlaystoreDebugLocalResources UP-TO-DATE
 > Task :app:createPlaystoreDebugCompatibleScreenManifests UP-TO-DATE
 > Task :app:extractDeepLinksPlaystoreDebug UP-TO-DATE
-> Task :app:processPlaystoreDebugMainManifest UP-TO-DATE
-> Task :app:processPlaystoreDebugManifest UP-TO-DATE
-> Task :app:processPlaystoreDebugManifestForPackage UP-TO-DATE
-> Task :app:processPlaystoreDebugResources UP-TO-DATE
-> Task :app:compilePlaystoreDebugKotlin UP-TO-DATE
+> Task :app:processPlaystoreDebugMainManifest
+> Task :app:processPlaystoreDebugManifest
 > Task :app:javaPreCompilePlaystoreDebug UP-TO-DATE
-> Task :app:compilePlaystoreDebugJavaWithJavac UP-TO-DATE
 > Task :app:generatePlaystoreDebugAssets UP-TO-DATE
+> Task :app:generatePlaystoreDebugPythonMiscAssets UP-TO-DATE
+> Task :app:generatePlaystoreDebugPythonRequirementsAssets UP-TO-DATE
+> Task :app:generatePlaystoreDebugPythonSourceAssets UP-TO-DATE
+> Task :app:generatePlaystoreDebugPythonBuildAssets UP-TO-DATE
 > Task :app:mergePlaystoreDebugAssets UP-TO-DATE
 > Task :app:compressPlaystoreDebugAssets UP-TO-DATE
 > Task :app:generatePlaystoreDebugGlobalSynthetics UP-TO-DATE
@@ -122,16 +126,21 @@ The 'org.jetbrains.kotlin.android' plugin in project ':app' is no longer require
 > Task :app:desugarPlaystoreDebugFileDependencies UP-TO-DATE
 > Task :app:mergeExtDexPlaystoreDebug UP-TO-DATE
 > Task :app:mergeLibDexPlaystoreDebug UP-TO-DATE
-> Task :app:processPlaystoreDebugJavaRes UP-TO-DATE
-> Task :app:mergePlaystoreDebugJavaResource UP-TO-DATE
-> Task :app:dexBuilderPlaystoreDebug UP-TO-DATE
-> Task :app:mergeProjectDexPlaystoreDebug UP-TO-DATE
+> Task :app:generatePlaystoreDebugPythonJniLibs UP-TO-DATE
 > Task :app:mergePlaystoreDebugJniLibFolders UP-TO-DATE
 > Task :app:mergePlaystoreDebugNativeLibs UP-TO-DATE
 > Task :app:stripPlaystoreDebugDebugSymbols UP-TO-DATE
 > Task :app:validateSigningPlaystoreDebug UP-TO-DATE
 > Task :app:writePlaystoreDebugAppMetadata UP-TO-DATE
 > Task :app:writePlaystoreDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processPlaystoreDebugManifestForPackage
+> Task :app:processPlaystoreDebugResources
+> Task :app:compilePlaystoreDebugKotlin UP-TO-DATE
+> Task :app:compilePlaystoreDebugJavaWithJavac UP-TO-DATE
+> Task :app:processPlaystoreDebugJavaRes UP-TO-DATE
+> Task :app:mergePlaystoreDebugJavaResource UP-TO-DATE
+> Task :app:dexBuilderPlaystoreDebug UP-TO-DATE
+> Task :app:mergeProjectDexPlaystoreDebug UP-TO-DATE
 > Task :app:packagePlaystoreDebug
 > Task :app:createPlaystoreDebugApkListingFileRedirect UP-TO-DATE
 > Task :app:assemblePlaystoreDebug
@@ -145,5 +154,4 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 For more on this, please refer to https://docs.gradle.org/9.8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
 BUILD SUCCESSFUL in 10s
-41 actionable tasks: 1 executed, 40 up-to-date
-Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.2/userguide/configuration_cache_enabling.html
+50 actionable tasks: 5 executed, 45 up-to-date

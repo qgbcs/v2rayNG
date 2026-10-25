@@ -1,0 +1,25 @@
+{
+    "assets": {
+        "requirements-arm64-v8a.imy": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33",
+        "bootstrap-native/arm64-v8a/_bz2.cpython-313-aarch64-linux-android.so": "6ffe8e642cee4b209b94a5b124fe23a362c7ff47",
+        "bootstrap-native/arm64-v8a/java/chaquopy.so": "db51771421002322ad10f57d26ddba7a5af45eac",
+        "bootstrap.imy": "8df0a0e4059d902285f84a36b44c99dc50f3ceb4",
+        "bootstrap-native/arm64-v8a/_struct.cpython-313-aarch64-linux-android.so": "bc853ee420ddcb148ff872d81c9c93d59a3740ef",
+        "bootstrap-native/arm64-v8a/_opcode.cpython-313-aarch64-linux-android.so": "2675639808b8f55643b692f6b9f60cc79ae6a1ef",
+        "bootstrap-native/arm64-v8a/math.cpython-313-aarch64-linux-android.so": "872ce5664f3933996240e03a06525f740ed94996",
+        "cacert.pem": "fec7b8c0a17c1c555fd33baee53678f31b7645ee",
+        "bootstrap-native/arm64-v8a/_datetime.cpython-313-aarch64-linux-android.so": "e43054c26d2449d31994f9e55b00828fd382b590",
+        "bootstrap-native/arm64-v8a/_random.cpython-313-aarch64-linux-android.so": "912b734f748ee93c1b9b1aa6f723fd2e4ddd9aec",
+        "bootstrap-native/arm64-v8a/zlib.cpython-313-aarch64-linux-android.so": "8c562f03d43690e3cba72f75321aad4e3b2aa858",
+        "bootstrap-native/arm64-v8a/_lzma.cpython-313-aarch64-linux-android.so": "e8b98edcbe491b8d83a5ef7a01fb986de3eb7c6b",
+        "bootstrap-native/arm64-v8a/binascii.cpython-313-aarch64-linux-android.so": "17b1d62d74405dc7910883b1557004bd3e10b27e",
+        "app.imy": "fccf07a599b9656d1e699ccbb7bd8fd3c437a578",
+        "bootstrap-native/arm64-v8a/mmap.cpython-313-aarch64-linux-android.so": "4bec75e128095f2d4fc896be30560f42560da443",
+        "stdlib-common.imy": "241988a283439f92ef2b0ec138f732ac0dc1f61e",
+        "bootstrap-native/arm64-v8a/_ctypes.cpython-313-aarch64-linux-android.so": "2d78e8e693016c53280a45e9d88c17902ab88cf9",
+        "stdlib-arm64-v8a.imy": "6e8176e62a95654981b3b5b7a35c0e34a2bf24fb",
+        "requirements-common.imy": "0643741a6bf88079a595199fad56db5a68df2014"
+    },
+    "extract_packages": [],
+    "python_version": "3.13"
+}
