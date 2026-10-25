@@ -1,9 +1,12 @@
 name: Dev APK (MQTT VPN)
 
 # MQTT VPN 开发迭代专用：dev 分支 push / 手动触发即出 debug 签名 APK。
-# 与正式 build.yml 的区别：无签名 secrets、只出 arm64-v8a debug 包、
-# 子模块已在 dev 分支拍平（无需 checkout submodules），libv2ray.aar
-# 固定用 gitlink 对应的 AndroidLibXrayLite tag（当前 v26.10.21）。
+#
+# 关键点：dev 分支是纯代码分支（无 res/资源、无 wrapper jar），不能直接出包。
+# 策略 = checkout 完整 master（含 res 与真子模块，源码版本天然一致），
+# 再把 dev 的代码改动叠加上去（排除 hev-socks5-tunnel / AndroidLibXrayLite
+# 两个子模块目录，防止拍平的混合版本覆盖 master 的一致检出）。
+# 产物 debug 签名 APK 上传 artifact，无需任何 secrets。
 
 on:
   workflow_dispatch:
@@ -19,10 +22,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout master (full resources + submodules)
       uses: actions/checkout@v7
       with:
+        ref: master
+        submodules: 'recursive'
         fetch-depth: '0'
+
+    - name: Overlay dev branch code
+      run: |
+        git fetch origin dev
+        git checkout dev -- . ':(exclude)hev-socks5-tunnel' ':(exclude)AndroidLibXrayLite'
+        echo '--- overlaid files (top) ---'
+        git status --short | head -30
 
     - name: Setup Android SDK
       uses: android-actions/setup-android@v4
@@ -43,7 +55,6 @@ jobs:
         if [ ! -x /usr/bin/python3.13 ]; then
           sudo apt-get update -qq
           sudo apt-get install -y -qq python3.13 python3.13-venv python3-pip || true
-          # apt 装不到就退回 setup-python 的工具链路径软链
           if [ ! -x /usr/bin/python3.13 ]; then
             sudo ln -sf "$(command -v python3.13 || echo /usr/bin/python3)" /usr/bin/python3.13
           fi
@@ -57,10 +68,12 @@ jobs:
 
     - name: Download libv2ray.aar
       run: |
+        CURRENT_TAG=$(git -C AndroidLibXrayLite describe --tags --abbrev=0)
+        echo "AndroidLibXrayLite tag: $CURRENT_TAG"
         mkdir -p V2rayNG/app/libs
         curl -fsSL --retry 3 \
           -o V2rayNG/app/libs/libv2ray.aar \
-          "https://github.com/2dust/AndroidLibXrayLite/releases/download/v26.10.21/libv2ray.aar"
+          "https://github.com/2dust/AndroidLibXrayLite/releases/download/$CURRENT_TAG/libv2ray.aar"
 
     - name: Setup Java
       uses: actions/setup-java@v6.1.0
