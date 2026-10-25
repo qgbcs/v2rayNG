@@ -19,6 +19,10 @@ android {
         versionName = "2.3.13"
 
         val abiFilterList = (properties["ABI_FILTERS"] as? String)?.split(';')
+        // Chaquopy 不读 splits.abi，要求 ndk.abiFilters；与 ABI_FILTERS 保持一致
+        ndk {
+            abiFilters += (abiFilterList ?: listOf("arm64-v8a", "armeabi-v7a", "x86_64", "x86"))
+        }
         splits {
             abi {
                 isEnable = true
