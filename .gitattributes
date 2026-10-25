@@ -1,0 +1,5 @@
+.android-sdk/ndk/30.0.16248370/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-21 filter=lfs diff=lfs merge=lfs -text
+.android-sdk/ndk/30.0.16248370/toolchains/llvm/prebuilt/linux-x86_64/lib/libclang-cpp.so filter=lfs diff=lfs merge=lfs -text
+.android-sdk/ndk/30.0.16248370/toolchains/llvm/prebuilt/linux-x86_64/lib/libclang.so filter=lfs diff=lfs merge=lfs -text
+.android-sdk/ndk/30.0.16248370/toolchains/llvm/prebuilt/linux-x86_64/lib/liblldb.so filter=lfs diff=lfs merge=lfs -text
+.gradle/wrapper/dists/gradle-9.8.2-bin/8wepis63pzuhrlfaiy04bagwu/gradle-9.8.2-bin.zip filter=lfs diff=lfs merge=lfs -text
